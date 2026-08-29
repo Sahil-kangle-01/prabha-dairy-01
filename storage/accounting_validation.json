@@ -1,0 +1,96 @@
+{
+  "source_rows": 2884,
+  "normalized_rows": 2884,
+  "duplicates_removed": 1,
+  "unified_accounting_rows": 2883,
+  "vouchers_with_ledger_entries": 2750,
+  "rows_without_voucher_identity": 0,
+  "rows_without_ledger_name": 0,
+  "rows_without_amount": 0,
+  "deemed_positive_amount_totals": {
+    "No": 19848.0,
+    "Yes": -8809640.790000001
+  },
+  "top_ledger_totals_by_absolute_amount": [
+    {
+      "ledger_name": "04 GHEE COUNTER",
+      "amount": -3693047.0600000015
+    },
+    {
+      "ledger_name": "08  Wadgaonkar  Sales",
+      "amount": -1127252.0
+    },
+    {
+      "ledger_name": "06  BULK  SALE",
+      "amount": -981726.0600000002
+    },
+    {
+      "ledger_name": "02 Rsa Afternoon Milk Counter",
+      "amount": -599808.1199999994
+    },
+    {
+      "ledger_name": "09   Pandurang  Sales",
+      "amount": -530150.75
+    },
+    {
+      "ledger_name": "12  ATM  A",
+      "amount": -437071.86
+    },
+    {
+      "ledger_name": "13  ATM   B",
+      "amount": -431181.57999999996
+    },
+    {
+      "ledger_name": "THE VEGAN  HOTEL",
+      "amount": -421530.0
+    },
+    {
+      "ledger_name": "Suprabhat Dairy  Phulambri",
+      "amount": -146029.0
+    },
+    {
+      "ledger_name": "01   Yash Morning  Milk Counter",
+      "amount": -135173.5400000001
+    },
+    {
+      "ledger_name": "HOTEL LADLI",
+      "amount": -81720.0
+    },
+    {
+      "ledger_name": "03  Nammokar Evening Milk Counter",
+      "amount": -71861.34
+    },
+    {
+      "ledger_name": "Extra Counter",
+      "amount": -61715.48
+    },
+    {
+      "ledger_name": "SHRI 1008 KPSDJ MANDIR",
+      "amount": -40904.0
+    },
+    {
+      "ledger_name": "Hattekar's Girija Catterors",
+      "amount": -30050.0
+    },
+    {
+      "ledger_name": "Transport",
+      "amount": 20010.0
+    },
+    {
+      "ledger_name": "ANNAAMRITA FOUNDATION",
+      "amount": -16840.0
+    },
+    {
+      "ledger_name": "Direct Counter Bal Bill",
+      "amount": -3210.0
+    },
+    {
+      "ledger_name": "APPA KOTHALE",
+      "amount": -370.0
+    },
+    {
+      "ledger_name": "Discounts,MiscExp,Gifts,Milk Damages",
+      "amount": -162.0
+    }
+  ]
+}

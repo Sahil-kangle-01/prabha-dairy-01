@@ -1,0 +1,557 @@
+﻿stock_item,godown,batch_name,unit,quantity
+01  DAHI CUP 200,01  CM  56  GODOWN,Primary Batch,NO. =  0.71 CRT,20.0
+01  DAHI CUP 200,01  CM  56  GODOWN,Primary Batch,NO. =  2.89 CRT,81.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.04 CRT,5.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.07 CRT,14.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.11 CRT,18.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.14 CRT,16.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.18 CRT,15.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.21 CRT,12.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.25 CRT,14.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.29 CRT,32.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.32 CRT,27.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.36 CRT,220.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.39 CRT,44.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.43 CRT,144.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.50 CRT,14.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.54 CRT,135.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.57 CRT,32.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.61 CRT,17.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.64 CRT,18.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.71 CRT,400.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.75 CRT,63.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.82 CRT,23.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.86 CRT,24.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.89 CRT,50.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.93 CRT,104.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  0.96 CRT,27.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.04 CRT,29.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.07 CRT,300.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.11 CRT,31.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.14 CRT,64.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.18 CRT,99.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.25 CRT,70.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.32 CRT,37.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.39 CRT,39.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.43 CRT,400.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.79 CRT,600.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.93 CRT,108.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  1.96 CRT,385.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  10.00 CRT,280.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  10.11 CRT,283.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  11.57 CRT,7776.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  12.25 CRT,343.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  13.71 CRT,384.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  14.46 CRT,1620.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  17.36 CRT,486.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.04 CRT,57.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.07 CRT,116.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.14 CRT,240.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.21 CRT,62.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.29 CRT,64.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.32 CRT,260.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.36 CRT,132.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.50 CRT,70.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.54 CRT,71.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.71 CRT,76.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.75 CRT,77.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.79 CRT,78.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.86 CRT,240.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  2.89 CRT,11826.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  22.96 CRT,643.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  23.14 CRT,648.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  28.93 CRT,810.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  3.04 CRT,85.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  3.21 CRT,270.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  3.57 CRT,100.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  3.61 CRT,303.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  3.64 CRT,204.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  3.96 CRT,111.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  4.29 CRT,120.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  4.50 CRT,504.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  4.79 CRT,134.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  5.00 CRT,140.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  5.79 CRT,6480.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  5.89 CRT,165.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  6.57 CRT,184.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  7.14 CRT,200.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  7.29 CRT,204.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  7.82 CRT,219.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  8.32 CRT,233.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  8.36 CRT,234.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  8.68 CRT,27459.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  9.07 CRT,254.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. =  9.86 CRT,276.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.04 CRT,-24.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.07 CRT,-32.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.11 CRT,-63.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.14 CRT,-40.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.18 CRT,-65.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.21 CRT,-60.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.25 CRT,-91.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.29 CRT,-40.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.32 CRT,-45.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.36 CRT,-50.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.39 CRT,-44.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.43 CRT,-36.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.46 CRT,-13.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.50 CRT,-98.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.54 CRT,-105.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.57 CRT,-64.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.61 CRT,-34.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.64 CRT,-144.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.68 CRT,-57.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.71 CRT,-40.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.75 CRT,-21.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.79 CRT,-66.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.82 CRT,-46.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.86 CRT,-96.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -0.96 CRT,-108.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.00 CRT,-84.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.04 CRT,-58.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.07 CRT,-180.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.11 CRT,-62.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.18 CRT,-165.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.21 CRT,-68.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.25 CRT,-35.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.32 CRT,-111.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.39 CRT,-39.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.46 CRT,-82.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.50 CRT,-42.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.54 CRT,-86.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.79 CRT,-50.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -1.96 CRT,-110.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -11.11 CRT,-311.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -2.07 CRT,-116.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -2.32 CRT,-65.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -2.71 CRT,-76.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -2.89 CRT,-324.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -3.21 CRT,-90.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -3.50 CRT,-98.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -3.57 CRT,-300.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -3.61 CRT,-101.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -3.64 CRT,-102.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -4.50 CRT,-126.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -4.71 CRT,-132.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -4.86 CRT,-136.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -4.89 CRT,-137.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -5.89 CRT,-165.0
+01  DAHI CUP 200,Main Store,Primary Batch,NO. = -5.96 CRT,-167.0
+01 DAHI CUP 200,Main Store,Primary Batch,NO. =  38.18 CRT,1069.0
+01 DAHI CUP 200,Main Store,Primary Batch,NO. =  61.00 CRT,1708.0
+02 MAlai Dahi Tray,01  CM  56  GODOWN,Primary Batch,KG =  1.21 TRAY,12.05
+02 MAlai Dahi Tray,01  CM  56  GODOWN,Primary Batch,KG = -0.23 TRAY,-2.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.06 TRAY,0.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.07 TRAY,1.95
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.10 TRAY,1.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.20 TRAY,2.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.23 TRAY,13.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.30 TRAY,147.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.38 TRAY,3.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.46 TRAY,4.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.50 TRAY,5.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.69 TRAY,6.9
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.88 TRAY,8.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.89 TRAY,8.94
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.90 TRAY,8.97
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.92 TRAY,9.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.94 TRAY,9.41
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.96 TRAY,9.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  0.99 TRAY,9.86
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.08 TRAY,10.78
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.10 TRAY,11.04
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.12 TRAY,11.19
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.13 TRAY,11.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.14 TRAY,11.39
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.15 TRAY,34.53
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.16 TRAY,11.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.18 TRAY,23.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.20 TRAY,12.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.22 TRAY,12.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.25 TRAY,12.5
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.27 TRAY,12.69
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.28 TRAY,38.48
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.29 TRAY,12.86
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.30 TRAY,25.99
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.31 TRAY,26.18
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.32 TRAY,39.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.33 TRAY,79.75
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.34 TRAY,53.59
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.35 TRAY,26.98
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.36 TRAY,13.59
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.38 TRAY,27.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.40 TRAY,28.03
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.43 TRAY,42.82
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.67 TRAY,16.74
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.69 TRAY,16.88
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  1.84 TRAY,18.35
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  10.17 TRAY,101.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  10.22 TRAY,102.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  10.32 TRAY,103.18
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  10.44 TRAY,104.4
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  10.47 TRAY,104.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  10.50 TRAY,104.98
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  10.54 TRAY,105.42
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  10.57 TRAY,105.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  10.60 TRAY,317.99
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  10.75 TRAY,107.5
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  10.94 TRAY,109.4
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  12.22 TRAY,122.17
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.00 TRAY,20.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.01 TRAY,20.1
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.27 TRAY,22.74
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.29 TRAY,22.88
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.32 TRAY,23.22
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.34 TRAY,46.79
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.36 TRAY,23.56
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.39 TRAY,23.88
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.41 TRAY,48.18
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.43 TRAY,24.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.46 TRAY,24.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.48 TRAY,24.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.51 TRAY,25.05
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.56 TRAY,51.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.57 TRAY,25.73
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.58 TRAY,25.75
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.59 TRAY,77.66
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.60 TRAY,26.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.61 TRAY,78.33
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.62 TRAY,52.48
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.63 TRAY,52.55
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.64 TRAY,26.35
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.65 TRAY,79.35
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.66 TRAY,53.23
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.67 TRAY,80.1
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.68 TRAY,53.61
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.70 TRAY,27.04
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.72 TRAY,54.38
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.73 TRAY,54.59
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.74 TRAY,54.75
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  2.76 TRAY,165.63
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.07 TRAY,30.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.35 TRAY,33.5
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.40 TRAY,33.96
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.64 TRAY,36.35
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.74 TRAY,37.37
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.76 TRAY,37.63
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.83 TRAY,76.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.86 TRAY,77.23
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.90 TRAY,39.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.92 TRAY,117.53
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.93 TRAY,39.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.94 TRAY,39.4
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  3.97 TRAY,39.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  30.00 TRAY,300.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  4.02 TRAY,40.17
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  4.04 TRAY,80.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  4.05 TRAY,40.52
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  4.07 TRAY,40.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.03 TRAY,50.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.07 TRAY,50.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.09 TRAY,50.9
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.13 TRAY,51.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.15 TRAY,51.5
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.20 TRAY,260.06
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.30 TRAY,53.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.31 TRAY,53.07
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.32 TRAY,53.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.33 TRAY,53.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.39 TRAY,107.81
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.51 TRAY,55.13
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.53 TRAY,55.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.75 TRAY,57.5
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  5.78 TRAY,57.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.08 TRAY,60.84
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.21 TRAY,62.05
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.37 TRAY,63.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.42 TRAY,128.4
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.45 TRAY,64.5
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.50 TRAY,65.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.57 TRAY,65.68
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.59 TRAY,65.9
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.63 TRAY,198.85
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.69 TRAY,133.83
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.70 TRAY,66.97
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.71 TRAY,67.07
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.72 TRAY,67.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.75 TRAY,135.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.81 TRAY,68.05
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  6.89 TRAY,68.94
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.12 TRAY,71.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.23 TRAY,72.28
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.24 TRAY,72.4
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.30 TRAY,73.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.46 TRAY,74.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.51 TRAY,75.07
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.66 TRAY,76.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.67 TRAY,76.69
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.73 TRAY,231.94
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.74 TRAY,77.4
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.76 TRAY,77.64
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.80 TRAY,78.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.82 TRAY,78.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.86 TRAY,78.57
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.89 TRAY,78.9
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.90 TRAY,79.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.92 TRAY,79.23
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.93 TRAY,79.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.94 TRAY,79.43
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.97 TRAY,398.37
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  7.98 TRAY,79.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.00 TRAY,240.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.01 TRAY,80.1
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.02 TRAY,160.39
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.03 TRAY,80.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.04 TRAY,241.27
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.06 TRAY,80.64
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.07 TRAY,80.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.08 TRAY,80.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.09 TRAY,80.9
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.10 TRAY,80.97
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.11 TRAY,81.05
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.12 TRAY,162.43
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.18 TRAY,81.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.20 TRAY,82.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.28 TRAY,82.81
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.35 TRAY,83.5
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.59 TRAY,85.9
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  8.82 TRAY,264.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.06 TRAY,90.55
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.09 TRAY,90.94
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.14 TRAY,91.39
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.16 TRAY,91.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.21 TRAY,92.1
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.25 TRAY,92.47
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.26 TRAY,92.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.27 TRAY,92.72
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.28 TRAY,92.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.33 TRAY,93.26
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.36 TRAY,93.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.39 TRAY,93.92
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.40 TRAY,93.95
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.45 TRAY,94.5
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.54 TRAY,95.4
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.76 TRAY,97.56
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG =  9.92 TRAY,99.22
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.07 TRAY,-2.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.13 TRAY,-2.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.16 TRAY,-1.601
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.20 TRAY,-2.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.23 TRAY,-75.9
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.25 TRAY,-2.5
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.26 TRAY,-7.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.30 TRAY,-57.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.38 TRAY,-3.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.46 TRAY,-216.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.53 TRAY,-5.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.54 TRAY,-5.35
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.64 TRAY,-6.4
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.65 TRAY,-6.48
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.66 TRAY,-13.22
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.69 TRAY,-124.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.70 TRAY,-13.93
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.71 TRAY,-14.27
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.72 TRAY,-7.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.73 TRAY,-7.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.74 TRAY,-7.44
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.80 TRAY,-15.98
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.87 TRAY,-8.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.88 TRAY,-8.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.89 TRAY,-8.86
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.90 TRAY,-8.96
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.92 TRAY,-138.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.93 TRAY,-9.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.94 TRAY,-9.4
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.96 TRAY,-9.57
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.97 TRAY,-9.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.98 TRAY,-9.75
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -0.99 TRAY,-29.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.01 TRAY,-10.1
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.02 TRAY,-30.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.03 TRAY,-10.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.04 TRAY,-10.38
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.05 TRAY,-20.93
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.07 TRAY,-10.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.10 TRAY,-21.97
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.11 TRAY,-11.1
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.13 TRAY,-11.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.15 TRAY,-264.52
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.18 TRAY,-35.42
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.20 TRAY,-12.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.21 TRAY,-12.05
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.22 TRAY,-24.4
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.24 TRAY,-37.23
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.25 TRAY,-12.49
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.27 TRAY,-25.38
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.29 TRAY,-25.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.30 TRAY,-26.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.32 TRAY,-13.2
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.33 TRAY,-13.32
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.34 TRAY,-13.44
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.35 TRAY,-13.5
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.36 TRAY,-13.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.37 TRAY,-13.74
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.38 TRAY,-579.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.39 TRAY,-27.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.40 TRAY,-14.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.42 TRAY,-14.22
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.43 TRAY,-57.06
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.44 TRAY,-28.76
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.48 TRAY,-14.77
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.49 TRAY,-59.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.50 TRAY,-14.99
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.51 TRAY,-30.15
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.52 TRAY,-15.15
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.53 TRAY,-15.3
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.55 TRAY,-15.45
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.57 TRAY,-15.65
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.58 TRAY,-15.78
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.60 TRAY,-16.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.61 TRAY,-257.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.62 TRAY,-32.32
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.63 TRAY,-48.9
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.65 TRAY,-16.51
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.66 TRAY,-16.55
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.67 TRAY,-33.48
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.70 TRAY,-33.95
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.74 TRAY,-34.81
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.78 TRAY,-53.4
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.81 TRAY,-36.15
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.84 TRAY,-312.81
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.89 TRAY,-18.9
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.95 TRAY,-19.54
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1.99 TRAY,-19.9
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -1852.00 TRAY,-18520.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -2.05 TRAY,-20.51
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -2.07 TRAY,-20.7
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -2.13 TRAY,-21.29
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -2.20 TRAY,-22.0
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -2.27 TRAY,-45.43
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -2.33 TRAY,-23.28
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -2.52 TRAY,-25.16
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -3.16 TRAY,-31.6
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -5.38 TRAY,-53.8
+02 MAlai Dahi Tray,Main Store,Primary Batch,KG = -915.00 TRAY,-9150.0
+03 Mattha Dahi,01  CM  56  GODOWN,Primary Batch,KG,57.92
+03 Mattha Dahi,Main Store,Primary Batch,KG,7163.296
+05 TAK 500ml Pouch,01  CM  56  GODOWN,Primary Batch,NO.,-4.0
+05 TAK 500ml Pouch,Main Store,Primary Batch,NO.,31013.0
+06 CM GHEE LOOSE,01  CM  56  GODOWN,Primary Batch,KG,34.97
+06 CM GHEE LOOSE,Main Store,Primary Batch,KG,2738.62
+07 BM GHEE LOOSE,Main Store,Primary Batch,KG,1649.75
+08  CHAKKA,Main Store,1,KG,49.59
+08  CHAKKA,Main Store,Primary Batch,KG,121.86
+10   Lassi  @10,01  CM  56  GODOWN,Primary Batch,NO.,147.0
+10   Lassi  @10,Main Store,Primary Batch,NO.,59638.0
+10 Lassi @10,Main Store,Primary Batch,NO.,13870.0
+11  Lassi @20,Main Store,Primary Batch,NO.,0.0
+13  Masala Chaach   10,Main Store,Primary Batch,NO.,487.0
+13 Masala Chaach 10,Main Store,Primary Batch,NO.,510.0
+14  CM 56,01  CM  56  GODOWN,Primary Batch,ltr,5531.4
+14  CM 56,02  MISHR   68    GODOWN,Primary Batch,ltr,-294.09
+14  CM 56,03  CM 54   GODOWN,Primary Batch,ltr,696.57
+14  CM 56,04 cm 54   Godown,Primary Batch,ltr,342.34
+14  CM 56,06  Panir   Godown,Primary Batch,ltr,-43.1
+14  CM 56,07  Dahi Glass   Godown,Primary Batch,ltr,-317.2
+14  CM 56,09  Sp  Dahi  Mathha  Godown,Primary Batch,ltr,-103.8
+14  CM 56,13  Lassi10,Primary Batch,ltr,-187.1
+14  CM 56,Main Store,Primary Batch,ltr,208.87
+15  MISHR    68,01  CM  56  GODOWN,Primary Batch,ltr,225.66
+15  MISHR    68,02  MISHR   68    GODOWN,Primary Batch,ltr,12538.15
+15  MISHR    68,03  CM 54   GODOWN,Primary Batch,ltr,-15.1
+15  MISHR    68,05  MISHR 70 GODOWN,Primary Batch,ltr,48.58
+15  MISHR    68,06  Panir   Godown,Primary Batch,ltr,-0.67
+15  MISHR    68,07  Dahi Glass   Godown,Primary Batch,ltr,-46.9
+15  MISHR    68,13  Lassi10,Primary Batch,ltr,-43.1
+15  MISHR    68,Main Store,Primary Batch,ltr,1012.54
+16  Bm  82,01  CM  56  GODOWN,Primary Batch,ltr,-34.9
+16  Bm  82,02  MISHR   68    GODOWN,Primary Batch,ltr,906.29
+16  Bm  82,03  CM 54   GODOWN,Primary Batch,ltr,436.21
+16  Bm  82,05  MISHR 70 GODOWN,Primary Batch,ltr,-3.0
+16  Bm  82,06  Panir   Godown,Primary Batch,ltr,-33.2
+16  Bm  82,08  Malai  Dahi Trey  Godown,Primary Batch,ltr,-52.8
+16  Bm  82,09  Sp  Dahi  Mathha  Godown,Primary Batch,ltr,-7.2
+16  Bm  82,10  Tak  .500    Godown,Primary Batch,ltr,-20.4
+16  Bm  82,13  Lassi10,Primary Batch,ltr,-18.3
+16  Bm  82,13 Shrikhand  Godown,Primary Batch,ltr,-23.5
+16  Bm  82,Main Store,Primary Batch,ltr,4712.63
+17  cm 54,01  CM  56  GODOWN,Primary Batch,ltr,55.58
+17  cm 54,02  MISHR   68    GODOWN,Primary Batch,ltr,68.5
+17  cm 54,03  CM 54   GODOWN,Primary Batch,ltr,5106.27
+17  cm 54,04 cm 54   Godown,Primary Batch,ltr,-240.28
+17  cm 54,06  Panir   Godown,Primary Batch,ltr,-96.39
+17  cm 54,10  Tak  .500    Godown,Primary Batch,ltr,-11.7
+17  cm 54,13  Lassi10,Primary Batch,ltr,-48.6
+17  cm 54,Main Store,Primary Batch,ltr,393.76
+18  MISHR  70,01  CM  56  GODOWN,Primary Batch,ltr,-296.68
+18  MISHR  70,02  MISHR   68    GODOWN,Primary Batch,ltr,40.41
+18  MISHR  70,03  CM 54   GODOWN,Primary Batch,ltr,-88.7
+18  MISHR  70,04 cm 54   Godown,Primary Batch,ltr,-801.06
+18  MISHR  70,05  MISHR 70 GODOWN,Primary Batch,ltr,1564.58
+18  MISHR  70,06  Panir   Godown,Primary Batch,ltr,-171.0
+18  MISHR  70,07  Dahi Glass   Godown,Primary Batch,ltr,-11.3
+18  MISHR  70,09  Sp  Dahi  Mathha  Godown,Primary Batch,ltr,-6.8
+18  MISHR  70,10  Tak  .500    Godown,Primary Batch,ltr,-16.0
+18  MISHR  70,12  Malai Lassi   Godown,Primary Batch,ltr,-9.1
+18  MISHR  70,13  Lassi10,Primary Batch,ltr,-29.74
+18  MISHR  70,Main Store,Primary Batch,ltr,65.88
+20 Kandi  Peda,Main Store,Primary Batch,KG,0.25
+22 Kalakand,Main Store,Primary Batch,KG,0.25
+23  Milk Cake,Main Store,Primary Batch,KG,3.45
+29 Besan Burffi,Main Store,Primary Batch,KG,3.0
+31  Gulab Jamun  Dry,Main Store,Primary Batch,KG,4.0
+42  Khawa,Main Store,Primary Batch,KG,2.0
+43 Loose  Tak,01  CM  56  GODOWN,Primary Batch,KG,50.6
+43 Loose  Tak,Main Store,Primary Batch,KG,4893.67
+46  Shrikhand  250,01  CM  56  GODOWN,Primary Batch,NO.,4.0
+46  Shrikhand  250,Main Store,Primary Batch,NO.,265.0
+46 Motichur  Ladu,Main Store,Primary Batch,KG,8.0
+48 Amrakhand  .250,Main Store,Primary Batch,NO.,4.0
+48 Amrakhand Losse,Main Store,Primary Batch,KG,30.0
+49 Amrakhand  .500,Main Store,Primary Batch,NO. =  2.000 KG,4.0
+49 Amrakhand  .500,Main Store,Primary Batch,NO. =  4.000 KG,8.0
+50  D10,Main Store,Primary Batch,NO.,5274.0
+50 D10,Main Store,Primary Batch,NO.,700.0
+AMUL BUTTER-100,Main Store,Primary Batch,NO. =  0.07 BX,10.0
+AMULBUTTER-500,Main Store,Primary Batch,NO. =  0.03 BX,1.0
+AMULBUTTER-500,Main Store,Primary Batch,NO. =  0.08 BX,3.0
+Amul Fresh Cream 1ltr,Main Store,Primary Batch,NO. =  0.04 BX,2.0
+Amul Fresh Cream 1ltr,Main Store,Primary Batch,NO. =  0.08 BX,1.0
+BESAN LADOO,Main Store,Primary Batch,KG,10.0
+BM MILK LOOSE,Main Store,Primary Batch,ltr,978.49
+Bm Cream   Kacchi,Main Store,Primary Batch,KG,1.0
+CHAT MASALA -500,Main Store,Primary Batch,NO.,-7.0
+Cm Ghee-500ml Jar,Main Store,Primary Batch,NO.,23.0
+Cm Milk  Loosse,Main Store,Primary Batch,ltr,3637.16
+GREENPEAS 5kg,Main Store,Primary Batch,NO.,5.0
+GREENPEASE Loose,Main Store,Primary Batch,KG,150.2
+Gool,Main Store,Primary Batch,NO.,339.0
+Kaccha Dhud,15  Kaccha Dhood   Godown,Primary Batch,ltr,87.68
+Kaccha Dhud,Main Store,Primary Batch,ltr,4.5
+LSD,Main Store,Primary Batch,KG,1254.54
+Loose Dahi Seprate,Main Store,Primary Batch,KG,2253.29
+PANIR  LOOSE,Main Store,Primary Batch,KG,124.51
+PRABHA DAHI Pouch-150g,Main Store,Primary Batch,NO.,544.0
+Poha Chiwada,Main Store,Primary Batch,KG,8.0
+Prabha Dahi Pouch-400g,Main Store,Primary Batch,NO.,162.0
+READY MIX - 49,Main Store,Primary Batch,NO.,372.0
+Ready Mix-45,Main Store,Primary Batch,NO.,372.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  0.63 BX,22.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  0.66 BX,23.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  0.69 BX,24.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  1.00 BX,35.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  1.03 BX,72.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  1.66 BX,58.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  1.71 BX,60.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  1.86 BX,65.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  16.46 BX,576.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  2.37 BX,83.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  2.40 BX,84.0
+Ready Mix-50,Main Store,Primary Batch,NO. =  3.06 BX,107.0
+Soya  Panir,Main Store,Primary Batch,NO. =  1.750 KG,7.0
+Soya  Panir,Main Store,Primary Batch,NO. =  2.500 KG,10.0
+Soya  Panir,Main Store,Primary Batch,NO. =  3.000 KG,84.0
+Soya  Panir,Main Store,Primary Batch,NO. =  5.000 KG,20.0
+TAK 10,Main Store,Primary Batch,NO.,144.0
+Vidyasagar Oil,Main Store,Primary Batch,NO.,139.0
+XX PL,Main Store,Primary Batch,KG,6769.18

@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1542,
+    "date": "20260706",
+    "voucher_number": "1542",
+    "voucher_type": "Sales",
+    "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00007bd7",
+    "master_id": "31703",
+    "alter_id": "58392",
+    "error": "Failed to fetch voucher 1542 (MasterID 31703) after 3 attempts: Tally connector returned no response"
+  },
+  {
+    "index": 1543,
+    "date": "20260706",
+    "voucher_number": "1543",
+    "voucher_type": "Sales",
+    "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00007bda",
+    "master_id": "31706",
+    "alter_id": "58397",
+    "error": "Failed to fetch voucher 1543 (MasterID 31706) after 3 attempts: Tally connector returned no response"
+  }
+]

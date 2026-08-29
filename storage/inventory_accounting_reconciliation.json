@@ -1,0 +1,195 @@
+{
+  "sales_inventory_rows": 7255,
+  "accounting_rows": 2883,
+  "unique_inventory_vouchers": 2750,
+  "unique_accounting_vouchers": 2750,
+  "vouchers_in_both": 2750,
+  "inventory_only_vouchers": 0,
+  "accounting_only_vouchers": 0,
+  "vouchers_with_matching_inventory_vs_party_amount": 2182,
+  "vouchers_with_amount_difference": 568,
+  "inventory_only_sample": [],
+  "accounting_only_sample": [],
+  "amount_difference_sample": [
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-0000714d",
+      "master_id": "29005",
+      "alter_id": "53131",
+      "voucher_number": "1263",
+      "inventory_amount_abs_sum": 3120.0,
+      "party_ledger_amount_abs": 3290.0,
+      "difference": -170.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00008584",
+      "master_id": "34180",
+      "alter_id": "62331",
+      "voucher_number": "1935",
+      "inventory_amount_abs_sum": 5938.32,
+      "party_ledger_amount_abs": 685.68,
+      "difference": 5252.64
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-0000814b",
+      "master_id": "33099",
+      "alter_id": "60666",
+      "voucher_number": "1503",
+      "inventory_amount_abs_sum": 143710.64,
+      "party_ledger_amount_abs": 101386.64,
+      "difference": 42324.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00004a69",
+      "master_id": "19049",
+      "alter_id": "34956",
+      "voucher_number": "154",
+      "inventory_amount_abs_sum": 60278.4,
+      "party_ledger_amount_abs": 37782.4,
+      "difference": 22496.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000080c9",
+      "master_id": "32969",
+      "alter_id": "60516",
+      "voucher_number": "1671",
+      "inventory_amount_abs_sum": 26028.48,
+      "party_ledger_amount_abs": 21516.72,
+      "difference": 4511.76
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005d1e",
+      "master_id": "23838",
+      "alter_id": "43609",
+      "voucher_number": "640",
+      "inventory_amount_abs_sum": 46480.4,
+      "party_ledger_amount_abs": 28179.6,
+      "difference": 18300.8
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-0000811b",
+      "master_id": "33051",
+      "alter_id": "60617",
+      "voucher_number": "1471",
+      "inventory_amount_abs_sum": 1776.0,
+      "party_ledger_amount_abs": 1056.0,
+      "difference": 720.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00007439",
+      "master_id": "29753",
+      "alter_id": "53943",
+      "voucher_number": "1327",
+      "inventory_amount_abs_sum": 3220.8,
+      "party_ledger_amount_abs": 412.8,
+      "difference": 2808.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00008164",
+      "master_id": "33124",
+      "alter_id": "60696",
+      "voucher_number": "1505",
+      "inventory_amount_abs_sum": 22142.4,
+      "party_ledger_amount_abs": 664.8,
+      "difference": 21477.6
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-0000600a",
+      "master_id": "24586",
+      "alter_id": "44678",
+      "voucher_number": "737",
+      "inventory_amount_abs_sum": 3040.0,
+      "party_ledger_amount_abs": 3180.0,
+      "difference": -140.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000060ae",
+      "master_id": "24750",
+      "alter_id": "44987",
+      "voucher_number": "757",
+      "inventory_amount_abs_sum": 28197.36,
+      "party_ledger_amount_abs": 22509.36,
+      "difference": 5688.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000063f9",
+      "master_id": "25593",
+      "alter_id": "45984",
+      "voucher_number": "852",
+      "inventory_amount_abs_sum": 36985.7,
+      "party_ledger_amount_abs": 29473.7,
+      "difference": 7512.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000083de",
+      "master_id": "33758",
+      "alter_id": "61662",
+      "voucher_number": "1721",
+      "inventory_amount_abs_sum": 19587.84,
+      "party_ledger_amount_abs": 18428.16,
+      "difference": 1159.68
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00004b74",
+      "master_id": "19316",
+      "alter_id": "38084",
+      "voucher_number": "180",
+      "inventory_amount_abs_sum": 3040.0,
+      "party_ledger_amount_abs": 3180.0,
+      "difference": -140.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005c8c",
+      "master_id": "23692",
+      "alter_id": "43424",
+      "voucher_number": "628",
+      "inventory_amount_abs_sum": 3040.0,
+      "party_ledger_amount_abs": 3180.0,
+      "difference": -140.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-0000612f",
+      "master_id": "24879",
+      "alter_id": "45178",
+      "voucher_number": "600",
+      "inventory_amount_abs_sum": 17670.8,
+      "party_ledger_amount_abs": 9941.2,
+      "difference": 7729.6
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-0000766a",
+      "master_id": "30314",
+      "alter_id": "54672",
+      "voucher_number": "1383",
+      "inventory_amount_abs_sum": 25161.6,
+      "party_ledger_amount_abs": 19430.4,
+      "difference": 5731.2
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00006cc6",
+      "master_id": "27846",
+      "alter_id": "51443",
+      "voucher_number": "1148",
+      "inventory_amount_abs_sum": 3120.0,
+      "party_ledger_amount_abs": 3290.0,
+      "difference": -170.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000051ae",
+      "master_id": "20910",
+      "alter_id": "37553",
+      "voucher_number": "339",
+      "inventory_amount_abs_sum": 4644.0,
+      "party_ledger_amount_abs": 3540.0,
+      "difference": 1104.0
+    },
+    {
+      "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000066f4",
+      "master_id": "26356",
+      "alter_id": "46941",
+      "voucher_number": "955",
+      "inventory_amount_abs_sum": 62487.36,
+      "party_ledger_amount_abs": 42040.64,
+      "difference": 20446.72
+    }
+  ]
+}

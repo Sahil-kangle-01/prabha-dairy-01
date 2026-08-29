@@ -1,0 +1,41 @@
+[Unit]
+Description=Prabha Dairy API Server
+After=network.target postgresql.service
+
+[Service]
+Type=notify
+User=prabha
+Group=prabha
+WorkingDirectory=/opt/prabha-dairy
+Environment="PATH=/opt/prabha-dairy/venv/bin"
+EnvironmentFile=/opt/prabha-dairy/.env
+
+# Gunicorn with Uvicorn workers
+ExecStart=/opt/prabha-dairy/venv/bin/gunicorn api.main:app \
+    --bind 0.0.0.0:8000 \
+    --workers 4 \
+    --worker-class uvicorn.workers.UvicornWorker \
+    --timeout 120 \
+    --graceful-timeout 30 \
+    --max-requests 1000 \
+    --max-requests-jitter 50 \
+    --access-logfile /var/log/prabha-dairy/access.log \
+    --error-logfile /var/log/prabha-dairy/error.log \
+    --log-level info
+
+ExecReload=/bin/kill -s HUP $MAINPID
+KillMode=mixed
+KillSignal=SIGTERM
+TimeoutStopSec=30
+Restart=always
+RestartSec=5
+
+# Security hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/prabha-dairy/logs /var/log/prabha-dairy
+
+[Install]
+WantedBy=multi-user.target

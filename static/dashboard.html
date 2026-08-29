@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prabha Dairy — Dashboard</title>
+<style>
+/* ================= RESET & BASE ================= */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #f4f6f9;
+  --surface:   #ffffff;
+  --primary:   #1a56db;
+  --primary-light: #e8eefb;
+  --accent:    #0e9f6e;
+  --accent-light: #e6f7f0;
+  --warn:      #e3a008;
+  --warn-light: #fdf6e3;
+  --text:      #1f2937;
+  --text-light:#6b7280;
+  --border:    #e5e7eb;
+  --radius:    10px;
+  --shadow:    0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+  --shadow-lg: 0 4px 12px rgba(0,0,0,.10);
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+/* ================= HEADER ================= */
+header {
+  background: linear-gradient(135deg, #1a56db 0%, #1e40af 100%);
+  color: white;
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+header .brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+header .brand .logo {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+header .brand .sub {
+  font-size: 13px;
+  opacity: 0.85;
+}
+header .date-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+header input[type="date"] {
+  padding: 7px 12px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 6px;
+  background: rgba(255,255,255,.15);
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+header input[type="date"]:focus { border-color: rgba(255,255,255,.6); }
+header input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(1); }
+header button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background .15s;
+}
+header button:hover { background: #e8eefb; }
+header .quick-btns { display: flex; gap: 6px; }
+header .quick-btns button {
+  padding: 6px 12px;
+  font-size: 12px;
+  background: rgba(255,255,255,.2);
+  color: white;
+  border: 1px solid rgba(255,255,255,.25);
+}
+header .quick-btns button:hover { background: rgba(255,255,255,.35); }
+
+/* ================= MAIN LAYOUT ================= */
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.section-title {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-light);
+  margin: 28px 0 12px;
+}
+.section-title:first-child { margin-top: 0; }
+
+/* ================= SUMMARY CARDS ================= */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  transition: box-shadow .2s;
+}
+.card:hover { box-shadow: var(--shadow-lg); }
+.card .label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--text-light);
+  margin-bottom: 6px;
+}
+.card .value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+}
+.card .value.primary { color: var(--primary); }
+.card .value.accent  { color: var(--accent); }
+.card .value.warn    { color: var(--warn); }
+.card .unit {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-light);
+  margin-left: 4px;
+}
+
+/* ================= TABLES ================= */
+.table-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.table-card .table-header {
+  padding: 16px 20px;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 1px solid var(--border);
+  background: #fafbfc;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid var(--border);
+}
+th {
+  background: #f9fafb;
+  font-weight: 600;
+  color: var(--text-light);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: #f9fafb; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+th.num { text-align: right; }
+
+/* ================= LAYOUT GRIDS ================= */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* ================= LOADING / ERROR ================= */
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-light);
+  font-size: 15px;
+}
+.loading::before {
+  content: '';
+  display: inline-block;
+  width: 24px; height: 24px;
+  border: 3px solid var(--border);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin .7s linear infinite;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.error-msg {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.empty-msg {
+  text-align: center;
+  padding: 32px;
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  header { padding: 16px; }
+  main { padding: 16px; }
+  .two-col { grid-template-columns: 1fr; }
+  .summary-grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+  .card .value { font-size: 22px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div>
+      <div class="logo">🥛 Prabha Dairy</div>
+      <div class="sub">Purchase Milk Dashboard</div>
+    </div>
+  </div>
+  <div class="nav" style="display:flex;gap:12px">
+    <a href="/stock-lookup" style="padding:8px 16px;border-radius:6px;background:rgba(255,255,255,.2);color:white;text-decoration:none;font-size:14px;font-weight:500;border:1px solid rgba(255,255,255,.25)">📦 Stock Lookup</a>
+  </div>
+  <div class="date-controls">
+    <div class="quick-btns">
+      <button onclick="setToday()">Today</button>
+      <button onclick="setThisWeek()">This Week</button>
+      <button onclick="setThisMonth()">This Month</button>
+      <button onclick="setFullRange()">All Data</button>
+    </div>
+    <input type="date" id="fromDate">
+    <span style="color:rgba(255,255,255,.7)">to</span>
+    <input type="date" id="toDate">
+    <button onclick="loadDashboard()">Refresh</button>
+  </div>
+</header>
+
+<main>
+  <!-- Period Summary -->
+  <div class="section-title">Period Overview</div>
+  <div id="summaryArea" class="summary-grid">
+    <div class="loading">Loading...</div>
+  </div>
+
+  <!-- Milk Type Breakdown -->
+  <div class="section-title">Milk Type Breakdown</div>
+  <div id="milkTypeArea">
+    <div class="loading">Loading...</div>
+  </div>
+
+  <!-- Godown & Supplier side-by-side -->
+  <div class="two-col">
+    <div>
+      <div class="section-title">Godown / Location Breakdown</div>
+      <div id="godownArea">
+        <div class="loading">Loading...</div>
+      </div>
+    </div>
+    <div>
+      <div class="section-title">Top Suppliers</div>
+      <div id="supplierArea">
+        <div class="loading">Loading...</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+const API_BASE = window.location.origin;
+
+/* ================= DATE HELPERS ================= */
+function fmtAPI(d) {
+  // YYYYMMDD for the analytics API
+  return d.toISOString().slice(0, 10).replace(/-/g, '');
+}
+function fmtInput(d) {
+  // YYYY-MM-DD for <input type=date>
+  return d.toISOString().slice(0, 10);
+}
+function today() { return new Date(); }
+
+function setToday() {
+  const d = today();
+  document.getElementById('fromDate').value = fmtInput(d);
+  document.getElementById('toDate').value   = fmtInput(d);
+  loadDashboard();
+}
+function setThisWeek() {
+  const d = today();
+  const start = new Date(d);
+  start.setDate(d.getDate() - d.getDay());  // Sunday
+  document.getElementById('fromDate').value = fmtInput(start);
+  document.getElementById('toDate').value   = fmtInput(d);
+  loadDashboard();
+}
+function setThisMonth() {
+  const d = today();
+  const start = new Date(d.getFullYear(), d.getMonth(), 1);
+  document.getElementById('fromDate').value = fmtInput(start);
+  document.getElementById('toDate').value   = fmtInput(d);
+  loadDashboard();
+}
+function setFullRange() {
+  document.getElementById('fromDate').value = '2026-04-01';
+  document.getElementById('toDate').value   = fmtInput(today());
+  loadDashboard();
+}
+
+/* ================= NUMBER FORMATTING ================= */
+function n(v, decimals = 2) {
+  if (v == null) return '—';
+  return Number(v).toLocaleString('en-IN', {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals,
+  });
+}
+function nInt(v) {
+  if (v == null) return '—';
+  return Number(v).toLocaleString('en-IN');
+}
+
+/* ================= FETCH HELPER ================= */
+async function fetchAPI(path, params) {
+  const url = new URL(`${API_BASE}${path}`);
+  Object.entries(params).forEach(([k, v]) => { if (v != null) url.searchParams.set(k, v); });
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${await resp.text()}`);
+  return resp.json();
+}
+
+/* ================= RENDER: PERIOD SUMMARY ================= */
+function renderSummary(data) {
+  const el = document.getElementById('summaryArea');
+  if (!data || data.record_count === 0) {
+    el.innerHTML = '<div class="empty-msg">No purchase milk records found for this period.</div>';
+    return;
+  }
+  el.innerHTML = `
+    <div class="card">
+      <div class="label">Total Records</div>
+      <div class="value primary">${nInt(data.record_count)}</div>
+    </div>
+    <div class="card">
+      <div class="label">Total Litres</div>
+      <div class="value">${n(data.total_litres)}<span class="unit">ltr</span></div>
+    </div>
+    <div class="card">
+      <div class="label">Total Amount</div>
+      <div class="value accent">₹${n(data.total_amount)}</div>
+    </div>
+    <div class="card">
+      <div class="label">Avg Degree</div>
+      <div class="value">${n(data.weighted_degree, 1)}</div>
+    </div>
+    <div class="card">
+      <div class="label">Avg FAT</div>
+      <div class="value warn">${n(data.weighted_fat)}</div>
+    </div>
+    <div class="card">
+      <div class="label">Avg SNF</div>
+      <div class="value">${n(data.weighted_snf)}</div>
+    </div>
+  `;
+}
+
+/* ================= RENDER: MILK TYPE ================= */
+function renderMilkType(data) {
+  const el = document.getElementById('milkTypeArea');
+  if (!data || data.length === 0) {
+    el.innerHTML = '<div class="empty-msg">No milk type data for this period.</div>';
+    return;
+  }
+  // Sort by litres descending
+  data.sort((a, b) => (b.total_litres || 0) - (a.total_litres || 0));
+
+  let rows = data.map(r => `
+    <tr>
+      <td>${r.milk_type || '(Unspecified)'}</td>
+      <td class="num">${nInt(r.record_count)}</td>
+      <td class="num">${n(r.total_litres)}</td>
+      <td class="num">₹${n(r.total_amount)}</td>
+      <td class="num">${n(r.weighted_degree, 1)}</td>
+      <td class="num">${n(r.weighted_fat)}</td>
+      <td class="num">${n(r.weighted_snf)}</td>
+    </tr>
+  `).join('');
+
+  el.innerHTML = `
+    <div class="table-card">
+      <table>
+        <thead><tr>
+          <th>Milk Type</th>
+          <th class="num">Records</th>
+          <th class="num">Litres</th>
+          <th class="num">Amount</th>
+          <th class="num">Degree</th>
+          <th class="num">FAT</th>
+          <th class="num">SNF</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+/* ================= RENDER: GODOWN ================= */
+function renderGodown(data) {
+  const el = document.getElementById('godownArea');
+  if (!data || data.length === 0) {
+    el.innerHTML = '<div class="empty-msg">No godown data for this period.</div>';
+    return;
+  }
+  data.sort((a, b) => (b.total_litres || 0) - (a.total_litres || 0));
+
+  let rows = data.map(r => `
+    <tr>
+      <td>${r.godown || '(Unspecified)'}</td>
+      <td class="num">${n(r.total_litres)}</td>
+      <td class="num">${n(r.weighted_degree, 1)}</td>
+      <td class="num">${n(r.weighted_fat)}</td>
+      <td class="num">${n(r.weighted_snf)}</td>
+    </tr>
+  `).join('');
+
+  el.innerHTML = `
+    <div class="table-card">
+      <table>
+        <thead><tr>
+          <th>Godown</th>
+          <th class="num">Litres</th>
+          <th class="num">Degree</th>
+          <th class="num">FAT</th>
+          <th class="num">SNF</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+/* ================= RENDER: SUPPLIER ================= */
+function renderSupplier(data) {
+  const el = document.getElementById('supplierArea');
+  if (!data || data.length === 0) {
+    el.innerHTML = '<div class="empty-msg">No supplier data for this period.</div>';
+    return;
+  }
+
+  let rows = data.map((r, i) => `
+    <tr>
+      <td>${i + 1}</td>
+      <td>${r.party_ledger || '(Unspecified)'}</td>
+      <td class="num">${n(r.total_litres)}</td>
+      <td class="num">${n(r.weighted_fat)}</td>
+      <td class="num">${n(r.weighted_snf)}</td>
+    </tr>
+  `).join('');
+
+  el.innerHTML = `
+    <div class="table-card">
+      <table>
+        <thead><tr>
+          <th>#</th>
+          <th>Supplier</th>
+          <th class="num">Litres</th>
+          <th class="num">FAT</th>
+          <th class="num">SNF</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+/* ================= RENDER: ERROR ================= */
+function renderError(id, err) {
+  document.getElementById(id).innerHTML =
+    `<div class="error-msg">Failed to load: ${err.message}</div>`;
+}
+
+/* ================= MAIN LOADER ================= */
+async function loadDashboard() {
+  const from = document.getElementById('fromDate').value.replace(/-/g, '');
+  const to   = document.getElementById('toDate').value.replace(/-/g, '');
+
+  if (!from || !to) return;
+
+  // Show loading states
+  ['summaryArea', 'milkTypeArea', 'godownArea', 'supplierArea'].forEach(id => {
+    document.getElementById(id).innerHTML = '<div class="loading">Loading...</div>';
+  });
+
+  // Fire all four requests in parallel
+  const [summaryP, milkP, godownP, supplierP] = [
+    fetchAPI('/analytics/period-summary',      { from_date: from, to_date: to }),
+    fetchAPI('/analytics/milk-type-breakdown',  { from_date: from, to_date: to }),
+    fetchAPI('/analytics/godown-breakdown',     { from_date: from, to_date: to }),
+    fetchAPI('/analytics/supplier-breakdown',   { from_date: from, to_date: to, top_n: 15 }),
+  ];
+
+  // Render each as it resolves (don't wait for all)
+  summaryP.then(renderSummary).catch(e   => renderError('summaryArea', e));
+  milkP.then(renderMilkType).catch(e     => renderError('milkTypeArea', e));
+  godownP.then(renderGodown).catch(e     => renderError('godownArea', e));
+  supplierP.then(renderSupplier).catch(e => renderError('supplierArea', e));
+}
+
+/* ================= INIT ================= */
+// Default: today
+document.getElementById('fromDate').value = fmtInput(today());
+document.getElementById('toDate').value   = fmtInput(today());
+loadDashboard();
+</script>
+
+</body>
+</html>

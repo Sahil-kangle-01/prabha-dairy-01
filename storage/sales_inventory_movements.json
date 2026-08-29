@@ -1,0 +1,21 @@
+[
+  {
+    "date": "20260401",
+    "voucher_number": "1",
+    "voucher_type": "Sales",
+    "party_ledger": "01 Yash Morning Milk Counter",
+    "guid": "ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000044a9",
+    "master_id": "17577",
+    "alter_id": "30797",
+    "stock_item": "16 Bm 82",
+    "quantity": -5.5,
+    "unit": "",
+    "rate": 78.0,
+    "amount": -429.0,
+    "source_godown": "Main Store",
+    "destination_godown": "Main Store",
+    "batch_name": "Primary Batch",
+    "is_deemed_positive": "No",
+    "movement_type": "OUT"
+  }
+]

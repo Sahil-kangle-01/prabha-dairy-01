@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prabha Dairy — Live Stock Lookup</title>
+<style>
+/* ================= RESET & BASE ================= */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #f4f6f9;
+  --surface:   #ffffff;
+  --primary:   #1a56db;
+  --primary-light: #e8eefb;
+  --accent:    #0e9f6e;
+  --accent-light: #e6f7f0;
+  --warn:      #e3a008;
+  --warn-light: #fdf6e3;
+  --text:      #1f2937;
+  --text-light:#6b7280;
+  --border:    #e5e7eb;
+  --radius:    10px;
+  --shadow:    0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+  --shadow-lg: 0 4px 12px rgba(0,0,0,.10);
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* ================= HEADER ================= */
+header {
+  background: linear-gradient(135deg, #1a56db 0%, #1e40af 100%);
+  color: white;
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+header .brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+header .brand .logo {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+header .brand .sub {
+  font-size: 13px;
+  opacity: 0.85;
+}
+header .nav {
+  display: flex;
+  gap: 12px;
+}
+header .nav a {
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: rgba(255,255,255,.2);
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid rgba(255,255,255,.25);
+  transition: background .15s;
+}
+header .nav a:hover {
+  background: rgba(255,255,255,.35);
+}
+
+/* ================= MAIN LAYOUT ================= */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.search-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 32px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  margin-bottom: 24px;
+}
+
+.search-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.search-subtitle {
+  font-size: 14px;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 14px 48px 14px 16px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color .15s;
+}
+
+.search-box input:focus {
+  border-color: var(--primary);
+}
+
+.search-box .search-icon {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-light);
+  font-size: 20px;
+}
+
+/* Autocomplete dropdown */
+.autocomplete-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  box-shadow: var(--shadow-lg);
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 100;
+  display: none;
+}
+
+.autocomplete-list.active {
+  display: block;
+}
+
+.autocomplete-item {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  transition: background .1s;
+}
+
+.autocomplete-item:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-item:hover {
+  background: var(--primary-light);
+}
+
+.autocomplete-item.loading {
+  color: var(--text-light);
+  text-align: center;
+  cursor: default;
+}
+
+.autocomplete-item.loading:hover {
+  background: transparent;
+}
+
+.autocomplete-item.no-results {
+  color: var(--text-light);
+  text-align: center;
+  font-style: italic;
+  cursor: default;
+}
+
+.autocomplete-item.no-results:hover {
+  background: transparent;
+}
+
+/* ================= RESULTS SECTION ================= */
+.results-section {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.results-header {
+  padding: 20px 24px;
+  background: linear-gradient(135deg, var(--primary-light) 0%, #f0f4ff 100%);
+  border-bottom: 1px solid var(--border);
+}
+
+.results-header .item-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+
+.results-header .timestamp {
+  font-size: 12px;
+  color: var(--text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.summary-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  padding: 20px 24px;
+  background: #fafbfc;
+  border-bottom: 1px solid var(--border);
+}
+
+.summary-item {
+  text-align: center;
+}
+
+.summary-item .label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-light);
+  margin-bottom: 4px;
+}
+
+.summary-item .value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.summary-item .value.accent {
+  color: var(--accent);
+}
+
+.summary-item .value.primary {
+  color: var(--primary);
+}
+
+/* ================= TABLE ================= */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 14px 24px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  background: #f9fafb;
+  font-weight: 600;
+  color: var(--text-light);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover td {
+  background: #f9fafb;
+}
+
+td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+th.num {
+  text-align: right;
+}
+
+td.godown-name {
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* ================= LOADING / ERROR ================= */
+.loading-state {
+  text-align: center;
+  padding: 48px;
+  color: var(--text-light);
+  font-size: 15px;
+}
+
+.loading-state::before {
+  content: '';
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 3px solid var(--border);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin .7s linear infinite;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.error-state {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin: 24px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 64px 24px;
+  color: var(--text-light);
+}
+
+.empty-state .icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+.empty-state .message {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.empty-state .hint {
+  font-size: 14px;
+  color: var(--text-light);
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  header {
+    padding: 16px;
+  }
+  main {
+    padding: 16px;
+  }
+  .search-card {
+    padding: 20px;
+  }
+  .summary-bar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  th, td {
+    padding: 10px 16px;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div>
+      <div class="logo">🥛 Prabha Dairy</div>
+      <div class="sub">Live Stock Lookup</div>
+    </div>
+  </div>
+  <div class="nav">
+    <a href="/">📊 Dashboard</a>
+  </div>
+</header>
+
+<main>
+  <div class="search-card">
+    <div class="search-title">Search Stock Items</div>
+    <div class="search-subtitle">Start typing to search for items in your inventory. Balance and rate are fetched live from Tally.</div>
+
+    <div class="search-box">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Type item name (e.g., Milk, Ghee, Paneer...)"
+        autocomplete="off"
+      >
+      <span class="search-icon">🔍</span>
+      <div id="autocompleteList" class="autocomplete-list"></div>
+    </div>
+  </div>
+
+  <div id="resultsContainer">
+    <!-- Empty state shown by default -->
+    <div class="empty-state">
+      <div class="icon">📦</div>
+      <div class="message">No item selected</div>
+      <div class="hint">Search for a stock item above to see live godown-wise balances</div>
+    </div>
+  </div>
+</main>
+
+<script>
+const API_BASE = window.location.origin;
+
+let autocompleteTimer = null;
+let currentSearchTerm = '';
+
+const searchInput = document.getElementById('searchInput');
+const autocompleteList = document.getElementById('autocompleteList');
+const resultsContainer = document.getElementById('resultsContainer');
+
+/* ================= NUMBER FORMATTING ================= */
+function n(v, decimals = 2) {
+  if (v == null) return '—';
+  return Number(v).toLocaleString('en-IN', {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals,
+  });
+}
+
+function nInt(v) {
+  if (v == null) return '—';
+  return Number(v).toLocaleString('en-IN');
+}
+
+/* ================= AUTOCOMPLETE ================= */
+searchInput.addEventListener('input', (e) => {
+  const query = e.target.value.trim();
+
+  // Clear previous timer
+  if (autocompleteTimer) {
+    clearTimeout(autocompleteTimer);
+  }
+
+  // Hide autocomplete if query is empty
+  if (query.length === 0) {
+    autocompleteList.classList.remove('active');
+    autocompleteList.innerHTML = '';
+    return;
+  }
+
+  // Show loading state
+  autocompleteList.classList.add('active');
+  autocompleteList.innerHTML = '<div class="autocomplete-item loading">Searching...</div>';
+
+  // Debounce: wait 300ms after user stops typing
+  autocompleteTimer = setTimeout(() => {
+    fetchAutocomplete(query);
+  }, 300);
+});
+
+async function fetchAutocomplete(query) {
+  try {
+    const url = new URL(`${API_BASE}/stock/search`);
+    url.searchParams.set('q', query);
+    url.searchParams.set('limit', '15');
+
+    const resp = await fetch(url);
+    if (!resp.ok) {
+      throw new Error(`HTTP ${resp.status}`);
+    }
+
+    const data = await resp.json();
+
+    if (data.results.length === 0) {
+      autocompleteList.innerHTML = '<div class="autocomplete-item no-results">No items found</div>';
+      return;
+    }
+
+    // Render results
+    autocompleteList.innerHTML = data.results.map(item =>
+      `<div class="autocomplete-item" data-item="${escapeHtml(item)}">${escapeHtml(item)}</div>`
+    ).join('');
+
+    // Attach click handlers
+    autocompleteList.querySelectorAll('.autocomplete-item[data-item]').forEach(el => {
+      el.addEventListener('click', () => {
+        const itemName = el.getAttribute('data-item');
+        searchInput.value = itemName;
+        autocompleteList.classList.remove('active');
+        fetchLiveStock(itemName);
+      });
+    });
+
+  } catch (err) {
+    autocompleteList.innerHTML = `<div class="autocomplete-item no-results">Error: ${escapeHtml(err.message)}</div>`;
+  }
+}
+
+/* ================= LIVE STOCK LOOKUP ================= */
+async function fetchLiveStock(itemName) {
+  currentSearchTerm = itemName;
+
+  // Show loading state
+  resultsContainer.innerHTML = '<div class="loading-state">Fetching live data from Tally...</div>';
+
+  try {
+    const url = new URL(`${API_BASE}/stock/live`);
+    url.searchParams.set('item', itemName);
+
+    const resp = await fetch(url);
+    if (!resp.ok) {
+      const text = await resp.text();
+      throw new Error(`${resp.status}: ${text}`);
+    }
+
+    const data = await resp.json();
+    renderResults(data);
+
+  } catch (err) {
+    resultsContainer.innerHTML = `
+      <div class="error-state">
+        <strong>Failed to fetch live stock data:</strong><br>
+        ${escapeHtml(err.message)}
+      </div>
+    `;
+  }
+}
+
+/* ================= RENDER RESULTS ================= */
+function renderResults(data) {
+  if (!data.godowns || data.godowns.length === 0) {
+    resultsContainer.innerHTML = `
+      <div class="empty-state">
+        <div class="icon">📭</div>
+        <div class="message">No stock found for "${escapeHtml(data.item)}"</div>
+        <div class="hint">This item may not have any current balance in Tally</div>
+      </div>
+    `;
+    return;
+  }
+
+  // Calculate totals
+  const totalBalance = data.godowns.reduce((sum, g) => sum + (parseFloat(g.closing_balance) || 0), 0);
+  const godownCount = data.godowns.length;
+
+  // Weighted average rate (balance-weighted)
+  let weightedRate = null;
+  if (totalBalance > 0) {
+    const sumWeighted = data.godowns.reduce((sum, g) => {
+      const bal = parseFloat(g.closing_balance) || 0;
+      const rate = parseFloat(g.closing_rate) || 0;
+      return sum + (bal * rate);
+    }, 0);
+    weightedRate = sumWeighted / totalBalance;
+  }
+
+  const now = new Date().toLocaleString('en-IN', {
+    dateStyle: 'medium',
+    timeStyle: 'short',
+  });
+
+  // Render table rows
+  const rows = data.godowns.map(g => `
+    <tr>
+      <td class="godown-name">${escapeHtml(g.godown || '(Unnamed)')}</td>
+      <td class="num">${n(g.closing_balance)}</td>
+      <td class="num">₹${n(g.closing_rate)}</td>
+    </tr>
+  `).join('');
+
+  resultsContainer.innerHTML = `
+    <div class="results-section">
+      <div class="results-header">
+        <div class="item-name">${escapeHtml(data.item)}</div>
+        <div class="timestamp">Live data as of ${now}</div>
+      </div>
+
+      <div class="summary-bar">
+        <div class="summary-item">
+          <div class="label">Godowns</div>
+          <div class="value primary">${nInt(godownCount)}</div>
+        </div>
+        <div class="summary-item">
+          <div class="label">Total Balance</div>
+          <div class="value accent">${n(totalBalance)}</div>
+        </div>
+        <div class="summary-item">
+          <div class="label">Avg Rate</div>
+          <div class="value">${weightedRate != null ? '₹' + n(weightedRate) : '—'}</div>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Godown / Location</th>
+            <th class="num">Closing Balance</th>
+            <th class="num">Closing Rate</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+/* ================= UTILITY ================= */
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+// Close autocomplete when clicking outside
+document.addEventListener('click', (e) => {
+  if (!searchInput.contains(e.target) && !autocompleteList.contains(e.target)) {
+    autocompleteList.classList.remove('active');
+  }
+});
+</script>
+
+</body>
+</html>

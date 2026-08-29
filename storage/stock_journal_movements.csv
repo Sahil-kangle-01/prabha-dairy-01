@@ -1,0 +1,31 @@
+﻿date,guid,master_id,alter_id,voucher_number,voucher_type,direction,stock_item,quantity,unit,rate,amount,source_godown,destination_godown,batch_name,movement_type
+20260403,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000045f8,17912,32804,10,Stock Journal,IN,10 Lassi @10,6000.0,NO.,,-60000.0,Main Store,Main Store,Primary Batch,IN
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000043f6,17398,30027,1,Stock Journal,IN,06 CM GHEE LOOSE,35.2,KG,780.0,-27456.0,Main Store,Main Store,Primary Batch,IN
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000043fd,17405,30035,2,Stock Journal,IN,13 Masala Chaach 10,510.0,NO.,10.0,-5100.0,Main Store,Main Store,Primary Batch,IN
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00004439,17465,30346,3,Stock Journal,IN,01 DAHI CUP 200,1069.0,NO. =  38.18 CRT,19.0,-20311.0,Main Store,Main Store,Primary Batch,IN
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00004439,17465,30346,3,Stock Journal,IN,02 MAlai Dahi Tray,80.0,KG =  8.00 TRAY,,-9600.0,Main Store,Main Store,Primary Batch,IN
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00004439,17465,30346,3,Stock Journal,IN,03 Mattha Dahi,240.0,KG,,-13440.0,Main Store,Main Store,Primary Batch,IN
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00004439,17465,30346,3,Stock Journal,IN,50 D10,700.0,NO.,10.0,-7000.0,Main Store,Main Store,Primary Batch,IN
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00004467,17511,30607,4,Stock Journal,IN,XX PL,32.4,KG,270.0,-8748.0,Main Store,Main Store,Primary Batch,IN
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,IN,10 Lassi @10,7870.0,NO.,5.8,-45661.35,Main Store,Main Store,Primary Batch,IN
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,Tonned Milk,,,,25877.25,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,SUGAR,,,,6528.0,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,PAPA,,,,200.0,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,ESSENCE,,,,254.0,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,SALT,,,,20.0,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,Plastic Losse Bag,,,,665.0,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,Lassi Polithin,,,,4107.5,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,Electric Energy,,,,2475.0,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,LABOUR,,,,2400.0,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,Wastage Replacement,,,,468.0,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,Tax,,,,2951.0,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,Wood,,,,125.0,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,Tax,,,,-1077.0,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,Tonned Milk,,,,651.6,Main Store,,Primary Batch,OUT
+20260401,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-00005128,20776,37545,5,Stock Journal,OUT,PAPA,,,,16.0,Main Store,,Primary Batch,OUT
+20260402,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-0000451e,17694,31787,6,Stock Journal,IN,XX PL,26.0,KG,,-7020.0,Main Store,Main Store,Primary Batch,IN
+20260402,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-0000451f,17695,31788,7,Stock Journal,IN,XX PL,25.4,KG,270.0,-6858.0,Main Store,Main Store,Primary Batch,IN
+20260403,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000045ed,17901,32701,8,Stock Journal,IN,01 DAHI CUP 200,1708.0,NO. =  61.00 CRT,,-32452.0,Main Store,Main Store,Primary Batch,IN
+20260403,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000045ed,17901,32701,8,Stock Journal,IN,02 MAlai Dahi Tray,80.0,KG =  8.00 TRAY,,-9600.0,Main Store,Main Store,Primary Batch,IN
+20260403,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000045ed,17901,32701,8,Stock Journal,IN,03 Mattha Dahi,100.0,KG,,-5600.0,Main Store,Main Store,Primary Batch,IN
+20260403,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000045f2,17906,32706,9,Stock Journal,IN,XX PL,24.5,KG,,-8085.0,Main Store,Main Store,Primary Batch,IN

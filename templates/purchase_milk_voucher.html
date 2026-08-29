@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Purchase Milk Voucher - {{ voucher.voucher_number }}</title>
+<style>
+@page {
+  size: A4;
+  margin: 1.5cm;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.4;
+  color: #000;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #1a56db;
+}
+
+.company-name {
+  font-size: 24pt;
+  font-weight: bold;
+  color: #1a56db;
+  margin-bottom: 5px;
+}
+
+.voucher-title {
+  font-size: 14pt;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+}
+
+.voucher-info {
+  display: table;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.info-row {
+  display: table-row;
+}
+
+.info-label {
+  display: table-cell;
+  width: 30%;
+  font-weight: 600;
+  padding: 5px 0;
+  color: #555;
+}
+
+.info-value {
+  display: table-cell;
+  padding: 5px 0;
+  color: #000;
+}
+
+.section-title {
+  font-size: 12pt;
+  font-weight: 700;
+  color: #1a56db;
+  margin: 25px 0 10px 0;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th {
+  background: #f4f6f9;
+  padding: 10px 8px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 10pt;
+  color: #555;
+  border: 1px solid #d0d0d0;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #d0d0d0;
+  font-size: 10pt;
+}
+
+.num {
+  text-align: right;
+}
+
+.total-row {
+  font-weight: 700;
+  background: #f9fafb;
+}
+
+.footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #d0d0d0;
+  font-size: 9pt;
+  color: #666;
+  text-align: center;
+}
+
+.signature-section {
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.signature-box {
+  display: table-cell;
+  width: 45%;
+  text-align: center;
+  padding-top: 50px;
+  border-top: 1px solid #000;
+}
+
+.signature-label {
+  font-size: 10pt;
+  font-weight: 600;
+  color: #555;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="company-name">🥛 Prabha Dairy</div>
+  <div class="voucher-title">Purchase Milk Voucher</div>
+</div>
+
+<div class="voucher-info">
+  <div class="info-row">
+    <div class="info-label">Voucher Number:</div>
+    <div class="info-value">{{ voucher.voucher_number }}</div>
+  </div>
+  <div class="info-row">
+    <div class="info-label">Date:</div>
+    <div class="info-value">{{ voucher.date.strftime('%d-%b-%Y') if voucher.date else 'N/A' }}</div>
+  </div>
+  <div class="info-row">
+    <div class="info-label">Supplier / Party:</div>
+    <div class="info-value">{{ voucher.party_ledger or 'N/A' }}</div>
+  </div>
+  <div class="info-row">
+    <div class="info-label">Godown / Location:</div>
+    <div class="info-value">{{ voucher.godown or 'N/A' }}</div>
+  </div>
+</div>
+
+<div class="section-title">Milk Details</div>
+
+<table>
+  <tr>
+    <th>Milk Type</th>
+    <th>Shift</th>
+    <th class="num">Quantity (Litres)</th>
+    <th class="num">Degree</th>
+    <th class="num">FAT (%)</th>
+    <th class="num">SNF (%)</th>
+  </tr>
+  <tr>
+    <td>{{ voucher.milk_type or '—' }}</td>
+    <td>{{ voucher.shift or '—' }}</td>
+    <td class="num">{{ "%.2f"|format(voucher.litres) if voucher.litres else '—' }}</td>
+    <td class="num">{{ "%.1f"|format(voucher.degree) if voucher.degree else '—' }}</td>
+    <td class="num">{{ "%.2f"|format(voucher.fat) if voucher.fat else '—' }}</td>
+    <td class="num">{{ "%.2f"|format(voucher.snf) if voucher.snf else '—' }}</td>
+  </tr>
+</table>
+
+<div class="section-title">Rate & Amount</div>
+
+<table>
+  <tr>
+    <th>Description</th>
+    <th class="num">Rate (₹/ltr)</th>
+    <th class="num">Amount (₹)</th>
+  </tr>
+  <tr>
+    <td>Calculated Rate</td>
+    <td class="num">{{ "%.2f"|format(voucher.calculated_rate) if voucher.calculated_rate else '—' }}</td>
+    <td class="num">{{ "%.2f"|format(voucher.calculated_amount) if voucher.calculated_amount else '—' }}</td>
+  </tr>
+  <tr>
+    <td>Less: Deduction</td>
+    <td class="num">—</td>
+    <td class="num">{{ "%.2f"|format(voucher.deduction_amount) if voucher.deduction_amount else '0.00' }}</td>
+  </tr>
+  <tr class="total-row">
+    <td>Net Amount Payable</td>
+    <td class="num">—</td>
+    <td class="num">₹ {{ "%.2f"|format(voucher.actual_amount) if voucher.actual_amount else '0.00' }}</td>
+  </tr>
+</table>
+
+{% if voucher.narration %}
+<div class="section-title">Narration</div>
+<p style="padding: 10px; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 4px;">
+  {{ voucher.narration }}
+</p>
+{% endif %}
+
+<div class="signature-section">
+  <div class="signature-box">
+    <div class="signature-label">Supplier Signature</div>
+  </div>
+  <div style="display: table-cell; width: 10%;"></div>
+  <div class="signature-box">
+    <div class="signature-label">Authorized Signatory</div>
+  </div>
+</div>
+
+<div class="footer">
+  Generated on {{ now.strftime('%d-%b-%Y %I:%M %p') }} | Prabha Dairy Purchase Milk System
+</div>
+
+</body>
+</html>

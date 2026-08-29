@@ -1,0 +1,7228 @@
+{
+  "detailed_batch_stock": [
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.71 CRT",
+      "quantity": 20.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.89 CRT",
+      "quantity": 81.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.04 CRT",
+      "quantity": 5.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.07 CRT",
+      "quantity": 14.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.11 CRT",
+      "quantity": 18.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.14 CRT",
+      "quantity": 16.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.18 CRT",
+      "quantity": 15.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.21 CRT",
+      "quantity": 12.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.25 CRT",
+      "quantity": 14.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.29 CRT",
+      "quantity": 32.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.32 CRT",
+      "quantity": 27.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.36 CRT",
+      "quantity": 220.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.39 CRT",
+      "quantity": 44.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.43 CRT",
+      "quantity": 144.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.50 CRT",
+      "quantity": 14.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.54 CRT",
+      "quantity": 135.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.57 CRT",
+      "quantity": 32.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.61 CRT",
+      "quantity": 17.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.64 CRT",
+      "quantity": 18.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.71 CRT",
+      "quantity": 400.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.75 CRT",
+      "quantity": 63.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.82 CRT",
+      "quantity": 23.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.86 CRT",
+      "quantity": 24.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.89 CRT",
+      "quantity": 50.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.93 CRT",
+      "quantity": 104.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.96 CRT",
+      "quantity": 27.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.04 CRT",
+      "quantity": 29.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.07 CRT",
+      "quantity": 300.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.11 CRT",
+      "quantity": 31.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.14 CRT",
+      "quantity": 64.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.18 CRT",
+      "quantity": 99.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.25 CRT",
+      "quantity": 70.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.32 CRT",
+      "quantity": 37.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.39 CRT",
+      "quantity": 39.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.43 CRT",
+      "quantity": 400.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.79 CRT",
+      "quantity": 600.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.93 CRT",
+      "quantity": 108.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.96 CRT",
+      "quantity": 385.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  10.00 CRT",
+      "quantity": 280.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  10.11 CRT",
+      "quantity": 283.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  11.57 CRT",
+      "quantity": 7776.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  12.25 CRT",
+      "quantity": 343.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  13.71 CRT",
+      "quantity": 384.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  14.46 CRT",
+      "quantity": 1620.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  17.36 CRT",
+      "quantity": 486.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.04 CRT",
+      "quantity": 57.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.07 CRT",
+      "quantity": 116.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.14 CRT",
+      "quantity": 240.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.21 CRT",
+      "quantity": 62.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.29 CRT",
+      "quantity": 64.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.32 CRT",
+      "quantity": 260.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.36 CRT",
+      "quantity": 132.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.50 CRT",
+      "quantity": 70.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.54 CRT",
+      "quantity": 71.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.71 CRT",
+      "quantity": 76.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.75 CRT",
+      "quantity": 77.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.79 CRT",
+      "quantity": 78.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.86 CRT",
+      "quantity": 240.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.89 CRT",
+      "quantity": 11826.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  22.96 CRT",
+      "quantity": 643.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  23.14 CRT",
+      "quantity": 648.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  28.93 CRT",
+      "quantity": 810.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  3.04 CRT",
+      "quantity": 85.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  3.21 CRT",
+      "quantity": 270.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  3.57 CRT",
+      "quantity": 100.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  3.61 CRT",
+      "quantity": 303.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  3.64 CRT",
+      "quantity": 204.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  3.96 CRT",
+      "quantity": 111.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  4.29 CRT",
+      "quantity": 120.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  4.50 CRT",
+      "quantity": 504.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  4.79 CRT",
+      "quantity": 134.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  5.00 CRT",
+      "quantity": 140.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  5.79 CRT",
+      "quantity": 6480.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  5.89 CRT",
+      "quantity": 165.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  6.57 CRT",
+      "quantity": 184.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  7.14 CRT",
+      "quantity": 200.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  7.29 CRT",
+      "quantity": 204.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  7.82 CRT",
+      "quantity": 219.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  8.32 CRT",
+      "quantity": 233.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  8.36 CRT",
+      "quantity": 234.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  8.68 CRT",
+      "quantity": 27459.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  9.07 CRT",
+      "quantity": 254.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  9.86 CRT",
+      "quantity": 276.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.04 CRT",
+      "quantity": -24.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.07 CRT",
+      "quantity": -32.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.11 CRT",
+      "quantity": -63.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.14 CRT",
+      "quantity": -40.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.18 CRT",
+      "quantity": -65.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.21 CRT",
+      "quantity": -60.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.25 CRT",
+      "quantity": -91.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.29 CRT",
+      "quantity": -40.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.32 CRT",
+      "quantity": -45.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.36 CRT",
+      "quantity": -50.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.39 CRT",
+      "quantity": -44.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.43 CRT",
+      "quantity": -36.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.46 CRT",
+      "quantity": -13.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.50 CRT",
+      "quantity": -98.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.54 CRT",
+      "quantity": -105.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.57 CRT",
+      "quantity": -64.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.61 CRT",
+      "quantity": -34.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.64 CRT",
+      "quantity": -144.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.68 CRT",
+      "quantity": -57.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.71 CRT",
+      "quantity": -40.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.75 CRT",
+      "quantity": -21.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.79 CRT",
+      "quantity": -66.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.82 CRT",
+      "quantity": -46.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.86 CRT",
+      "quantity": -96.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -0.96 CRT",
+      "quantity": -108.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.00 CRT",
+      "quantity": -84.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.04 CRT",
+      "quantity": -58.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.07 CRT",
+      "quantity": -180.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.11 CRT",
+      "quantity": -62.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.18 CRT",
+      "quantity": -165.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.21 CRT",
+      "quantity": -68.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.25 CRT",
+      "quantity": -35.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.32 CRT",
+      "quantity": -111.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.39 CRT",
+      "quantity": -39.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.46 CRT",
+      "quantity": -82.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.50 CRT",
+      "quantity": -42.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.54 CRT",
+      "quantity": -86.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.79 CRT",
+      "quantity": -50.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -1.96 CRT",
+      "quantity": -110.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -11.11 CRT",
+      "quantity": -311.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -2.07 CRT",
+      "quantity": -116.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -2.32 CRT",
+      "quantity": -65.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -2.71 CRT",
+      "quantity": -76.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -2.89 CRT",
+      "quantity": -324.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -3.21 CRT",
+      "quantity": -90.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -3.50 CRT",
+      "quantity": -98.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -3.57 CRT",
+      "quantity": -300.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -3.61 CRT",
+      "quantity": -101.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -3.64 CRT",
+      "quantity": -102.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -4.50 CRT",
+      "quantity": -126.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -4.71 CRT",
+      "quantity": -132.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -4.86 CRT",
+      "quantity": -136.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -4.89 CRT",
+      "quantity": -137.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -5.89 CRT",
+      "quantity": -165.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. = -5.96 CRT",
+      "quantity": -167.0
+    },
+    {
+      "stock_item": "01 DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  38.18 CRT",
+      "quantity": 1069.0
+    },
+    {
+      "stock_item": "01 DAHI CUP 200",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  61.00 CRT",
+      "quantity": 1708.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.21 TRAY",
+      "quantity": 12.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.23 TRAY",
+      "quantity": -2.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.06 TRAY",
+      "quantity": 0.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.07 TRAY",
+      "quantity": 1.95
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.10 TRAY",
+      "quantity": 1.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.20 TRAY",
+      "quantity": 2.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.23 TRAY",
+      "quantity": 13.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.30 TRAY",
+      "quantity": 147.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.38 TRAY",
+      "quantity": 3.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.46 TRAY",
+      "quantity": 4.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.50 TRAY",
+      "quantity": 5.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.69 TRAY",
+      "quantity": 6.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.88 TRAY",
+      "quantity": 8.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.89 TRAY",
+      "quantity": 8.94
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.90 TRAY",
+      "quantity": 8.97
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.92 TRAY",
+      "quantity": 9.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.94 TRAY",
+      "quantity": 9.41
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.96 TRAY",
+      "quantity": 9.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  0.99 TRAY",
+      "quantity": 9.86
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.08 TRAY",
+      "quantity": 10.78
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.10 TRAY",
+      "quantity": 11.04
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.12 TRAY",
+      "quantity": 11.19
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.13 TRAY",
+      "quantity": 11.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.14 TRAY",
+      "quantity": 11.39
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.15 TRAY",
+      "quantity": 34.53
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.16 TRAY",
+      "quantity": 11.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.18 TRAY",
+      "quantity": 23.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.20 TRAY",
+      "quantity": 12.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.22 TRAY",
+      "quantity": 12.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.25 TRAY",
+      "quantity": 12.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.27 TRAY",
+      "quantity": 12.69
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.28 TRAY",
+      "quantity": 38.48
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.29 TRAY",
+      "quantity": 12.86
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.30 TRAY",
+      "quantity": 25.99
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.31 TRAY",
+      "quantity": 26.18
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.32 TRAY",
+      "quantity": 39.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.33 TRAY",
+      "quantity": 79.75
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.34 TRAY",
+      "quantity": 53.59
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.35 TRAY",
+      "quantity": 26.98
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.36 TRAY",
+      "quantity": 13.59
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.38 TRAY",
+      "quantity": 27.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.40 TRAY",
+      "quantity": 28.03
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.43 TRAY",
+      "quantity": 42.82
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.67 TRAY",
+      "quantity": 16.74
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.69 TRAY",
+      "quantity": 16.88
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  1.84 TRAY",
+      "quantity": 18.35
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  10.17 TRAY",
+      "quantity": 101.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  10.22 TRAY",
+      "quantity": 102.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  10.32 TRAY",
+      "quantity": 103.18
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  10.44 TRAY",
+      "quantity": 104.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  10.47 TRAY",
+      "quantity": 104.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  10.50 TRAY",
+      "quantity": 104.98
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  10.54 TRAY",
+      "quantity": 105.42
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  10.57 TRAY",
+      "quantity": 105.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  10.60 TRAY",
+      "quantity": 317.99
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  10.75 TRAY",
+      "quantity": 107.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  10.94 TRAY",
+      "quantity": 109.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  12.22 TRAY",
+      "quantity": 122.17
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.00 TRAY",
+      "quantity": 20.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.01 TRAY",
+      "quantity": 20.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.27 TRAY",
+      "quantity": 22.74
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.29 TRAY",
+      "quantity": 22.88
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.32 TRAY",
+      "quantity": 23.22
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.34 TRAY",
+      "quantity": 46.79
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.36 TRAY",
+      "quantity": 23.56
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.39 TRAY",
+      "quantity": 23.88
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.41 TRAY",
+      "quantity": 48.18
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.43 TRAY",
+      "quantity": 24.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.46 TRAY",
+      "quantity": 24.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.48 TRAY",
+      "quantity": 24.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.51 TRAY",
+      "quantity": 25.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.56 TRAY",
+      "quantity": 51.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.57 TRAY",
+      "quantity": 25.73
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.58 TRAY",
+      "quantity": 25.75
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.59 TRAY",
+      "quantity": 77.66
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.60 TRAY",
+      "quantity": 26.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.61 TRAY",
+      "quantity": 78.33
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.62 TRAY",
+      "quantity": 52.48
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.63 TRAY",
+      "quantity": 52.55
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.64 TRAY",
+      "quantity": 26.35
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.65 TRAY",
+      "quantity": 79.35
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.66 TRAY",
+      "quantity": 53.23
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.67 TRAY",
+      "quantity": 80.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.68 TRAY",
+      "quantity": 53.61
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.70 TRAY",
+      "quantity": 27.04
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.72 TRAY",
+      "quantity": 54.38
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.73 TRAY",
+      "quantity": 54.59
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.74 TRAY",
+      "quantity": 54.75
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  2.76 TRAY",
+      "quantity": 165.63
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.07 TRAY",
+      "quantity": 30.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.35 TRAY",
+      "quantity": 33.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.40 TRAY",
+      "quantity": 33.96
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.64 TRAY",
+      "quantity": 36.35
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.74 TRAY",
+      "quantity": 37.37
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.76 TRAY",
+      "quantity": 37.63
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.83 TRAY",
+      "quantity": 76.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.86 TRAY",
+      "quantity": 77.23
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.90 TRAY",
+      "quantity": 39.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.92 TRAY",
+      "quantity": 117.53
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.93 TRAY",
+      "quantity": 39.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.94 TRAY",
+      "quantity": 39.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  3.97 TRAY",
+      "quantity": 39.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  30.00 TRAY",
+      "quantity": 300.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  4.02 TRAY",
+      "quantity": 40.17
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  4.04 TRAY",
+      "quantity": 80.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  4.05 TRAY",
+      "quantity": 40.52
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  4.07 TRAY",
+      "quantity": 40.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.03 TRAY",
+      "quantity": 50.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.07 TRAY",
+      "quantity": 50.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.09 TRAY",
+      "quantity": 50.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.13 TRAY",
+      "quantity": 51.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.15 TRAY",
+      "quantity": 51.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.20 TRAY",
+      "quantity": 260.06
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.30 TRAY",
+      "quantity": 53.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.31 TRAY",
+      "quantity": 53.07
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.32 TRAY",
+      "quantity": 53.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.33 TRAY",
+      "quantity": 53.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.39 TRAY",
+      "quantity": 107.81
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.51 TRAY",
+      "quantity": 55.13
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.53 TRAY",
+      "quantity": 55.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.75 TRAY",
+      "quantity": 57.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  5.78 TRAY",
+      "quantity": 57.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.08 TRAY",
+      "quantity": 60.84
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.21 TRAY",
+      "quantity": 62.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.37 TRAY",
+      "quantity": 63.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.42 TRAY",
+      "quantity": 128.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.45 TRAY",
+      "quantity": 64.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.50 TRAY",
+      "quantity": 65.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.57 TRAY",
+      "quantity": 65.68
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.59 TRAY",
+      "quantity": 65.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.63 TRAY",
+      "quantity": 198.85
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.69 TRAY",
+      "quantity": 133.83
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.70 TRAY",
+      "quantity": 66.97
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.71 TRAY",
+      "quantity": 67.07
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.72 TRAY",
+      "quantity": 67.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.75 TRAY",
+      "quantity": 135.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.81 TRAY",
+      "quantity": 68.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  6.89 TRAY",
+      "quantity": 68.94
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.12 TRAY",
+      "quantity": 71.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.23 TRAY",
+      "quantity": 72.28
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.24 TRAY",
+      "quantity": 72.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.30 TRAY",
+      "quantity": 73.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.46 TRAY",
+      "quantity": 74.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.51 TRAY",
+      "quantity": 75.07
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.66 TRAY",
+      "quantity": 76.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.67 TRAY",
+      "quantity": 76.69
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.73 TRAY",
+      "quantity": 231.94
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.74 TRAY",
+      "quantity": 77.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.76 TRAY",
+      "quantity": 77.64
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.80 TRAY",
+      "quantity": 78.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.82 TRAY",
+      "quantity": 78.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.86 TRAY",
+      "quantity": 78.57
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.89 TRAY",
+      "quantity": 78.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.90 TRAY",
+      "quantity": 79.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.92 TRAY",
+      "quantity": 79.23
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.93 TRAY",
+      "quantity": 79.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.94 TRAY",
+      "quantity": 79.43
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.97 TRAY",
+      "quantity": 398.37
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  7.98 TRAY",
+      "quantity": 79.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.00 TRAY",
+      "quantity": 240.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.01 TRAY",
+      "quantity": 80.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.02 TRAY",
+      "quantity": 160.39
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.03 TRAY",
+      "quantity": 80.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.04 TRAY",
+      "quantity": 241.27
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.06 TRAY",
+      "quantity": 80.64
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.07 TRAY",
+      "quantity": 80.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.08 TRAY",
+      "quantity": 80.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.09 TRAY",
+      "quantity": 80.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.10 TRAY",
+      "quantity": 80.97
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.11 TRAY",
+      "quantity": 81.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.12 TRAY",
+      "quantity": 162.43
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.18 TRAY",
+      "quantity": 81.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.20 TRAY",
+      "quantity": 82.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.28 TRAY",
+      "quantity": 82.81
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.35 TRAY",
+      "quantity": 83.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.59 TRAY",
+      "quantity": 85.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  8.82 TRAY",
+      "quantity": 264.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.06 TRAY",
+      "quantity": 90.55
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.09 TRAY",
+      "quantity": 90.94
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.14 TRAY",
+      "quantity": 91.39
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.16 TRAY",
+      "quantity": 91.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.21 TRAY",
+      "quantity": 92.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.25 TRAY",
+      "quantity": 92.47
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.26 TRAY",
+      "quantity": 92.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.27 TRAY",
+      "quantity": 92.72
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.28 TRAY",
+      "quantity": 92.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.33 TRAY",
+      "quantity": 93.26
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.36 TRAY",
+      "quantity": 93.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.39 TRAY",
+      "quantity": 93.92
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.40 TRAY",
+      "quantity": 93.95
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.45 TRAY",
+      "quantity": 94.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.54 TRAY",
+      "quantity": 95.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.76 TRAY",
+      "quantity": 97.56
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG =  9.92 TRAY",
+      "quantity": 99.22
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.07 TRAY",
+      "quantity": -2.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.13 TRAY",
+      "quantity": -2.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.16 TRAY",
+      "quantity": -1.601
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.20 TRAY",
+      "quantity": -2.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.23 TRAY",
+      "quantity": -75.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.25 TRAY",
+      "quantity": -2.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.26 TRAY",
+      "quantity": -7.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.30 TRAY",
+      "quantity": -57.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.38 TRAY",
+      "quantity": -3.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.46 TRAY",
+      "quantity": -216.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.53 TRAY",
+      "quantity": -5.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.54 TRAY",
+      "quantity": -5.35
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.64 TRAY",
+      "quantity": -6.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.65 TRAY",
+      "quantity": -6.48
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.66 TRAY",
+      "quantity": -13.22
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.69 TRAY",
+      "quantity": -124.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.70 TRAY",
+      "quantity": -13.93
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.71 TRAY",
+      "quantity": -14.27
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.72 TRAY",
+      "quantity": -7.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.73 TRAY",
+      "quantity": -7.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.74 TRAY",
+      "quantity": -7.44
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.80 TRAY",
+      "quantity": -15.98
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.87 TRAY",
+      "quantity": -8.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.88 TRAY",
+      "quantity": -8.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.89 TRAY",
+      "quantity": -8.86
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.90 TRAY",
+      "quantity": -8.96
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.92 TRAY",
+      "quantity": -138.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.93 TRAY",
+      "quantity": -9.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.94 TRAY",
+      "quantity": -9.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.96 TRAY",
+      "quantity": -9.57
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.97 TRAY",
+      "quantity": -9.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.98 TRAY",
+      "quantity": -9.75
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -0.99 TRAY",
+      "quantity": -29.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.01 TRAY",
+      "quantity": -10.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.02 TRAY",
+      "quantity": -30.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.03 TRAY",
+      "quantity": -10.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.04 TRAY",
+      "quantity": -10.38
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.05 TRAY",
+      "quantity": -20.93
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.07 TRAY",
+      "quantity": -10.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.10 TRAY",
+      "quantity": -21.97
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.11 TRAY",
+      "quantity": -11.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.13 TRAY",
+      "quantity": -11.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.15 TRAY",
+      "quantity": -264.52
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.18 TRAY",
+      "quantity": -35.42
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.20 TRAY",
+      "quantity": -12.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.21 TRAY",
+      "quantity": -12.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.22 TRAY",
+      "quantity": -24.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.24 TRAY",
+      "quantity": -37.23
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.25 TRAY",
+      "quantity": -12.49
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.27 TRAY",
+      "quantity": -25.38
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.29 TRAY",
+      "quantity": -25.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.30 TRAY",
+      "quantity": -26.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.32 TRAY",
+      "quantity": -13.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.33 TRAY",
+      "quantity": -13.32
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.34 TRAY",
+      "quantity": -13.44
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.35 TRAY",
+      "quantity": -13.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.36 TRAY",
+      "quantity": -13.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.37 TRAY",
+      "quantity": -13.74
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.38 TRAY",
+      "quantity": -579.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.39 TRAY",
+      "quantity": -27.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.40 TRAY",
+      "quantity": -14.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.42 TRAY",
+      "quantity": -14.22
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.43 TRAY",
+      "quantity": -57.06
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.44 TRAY",
+      "quantity": -28.76
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.48 TRAY",
+      "quantity": -14.77
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.49 TRAY",
+      "quantity": -59.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.50 TRAY",
+      "quantity": -14.99
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.51 TRAY",
+      "quantity": -30.15
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.52 TRAY",
+      "quantity": -15.15
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.53 TRAY",
+      "quantity": -15.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.55 TRAY",
+      "quantity": -15.45
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.57 TRAY",
+      "quantity": -15.65
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.58 TRAY",
+      "quantity": -15.78
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.60 TRAY",
+      "quantity": -16.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.61 TRAY",
+      "quantity": -257.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.62 TRAY",
+      "quantity": -32.32
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.63 TRAY",
+      "quantity": -48.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.65 TRAY",
+      "quantity": -16.51
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.66 TRAY",
+      "quantity": -16.55
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.67 TRAY",
+      "quantity": -33.48
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.70 TRAY",
+      "quantity": -33.95
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.74 TRAY",
+      "quantity": -34.81
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.78 TRAY",
+      "quantity": -53.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.81 TRAY",
+      "quantity": -36.15
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.84 TRAY",
+      "quantity": -312.81
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.89 TRAY",
+      "quantity": -18.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.95 TRAY",
+      "quantity": -19.54
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1.99 TRAY",
+      "quantity": -19.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -1852.00 TRAY",
+      "quantity": -18520.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -2.05 TRAY",
+      "quantity": -20.51
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -2.07 TRAY",
+      "quantity": -20.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -2.13 TRAY",
+      "quantity": -21.29
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -2.20 TRAY",
+      "quantity": -22.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -2.27 TRAY",
+      "quantity": -45.43
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -2.33 TRAY",
+      "quantity": -23.28
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -2.52 TRAY",
+      "quantity": -25.16
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -3.16 TRAY",
+      "quantity": -31.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -5.38 TRAY",
+      "quantity": -53.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG = -915.00 TRAY",
+      "quantity": -9150.0
+    },
+    {
+      "stock_item": "03 Mattha Dahi",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 57.92
+    },
+    {
+      "stock_item": "03 Mattha Dahi",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 7163.296
+    },
+    {
+      "stock_item": "05 TAK 500ml Pouch",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": -4.0
+    },
+    {
+      "stock_item": "05 TAK 500ml Pouch",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 31013.0
+    },
+    {
+      "stock_item": "06 CM GHEE LOOSE",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 34.97
+    },
+    {
+      "stock_item": "06 CM GHEE LOOSE",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 2738.62
+    },
+    {
+      "stock_item": "07 BM GHEE LOOSE",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 1649.75
+    },
+    {
+      "stock_item": "08  CHAKKA",
+      "godown": "Main Store",
+      "batch_name": "1",
+      "unit": "KG",
+      "quantity": 49.59
+    },
+    {
+      "stock_item": "08  CHAKKA",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 121.86
+    },
+    {
+      "stock_item": "10   Lassi  @10",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 147.0
+    },
+    {
+      "stock_item": "10   Lassi  @10",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 59638.0
+    },
+    {
+      "stock_item": "10 Lassi @10",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 13870.0
+    },
+    {
+      "stock_item": "11  Lassi @20",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 0.0
+    },
+    {
+      "stock_item": "13  Masala Chaach   10",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 487.0
+    },
+    {
+      "stock_item": "13 Masala Chaach 10",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 510.0
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 5531.4
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "02  MISHR   68    GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -294.09
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "03  CM 54   GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 696.57
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "04 cm 54   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 342.34
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "06  Panir   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -43.1
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "07  Dahi Glass   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -317.2
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "09  Sp  Dahi  Mathha  Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -103.8
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "13  Lassi10",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -187.1
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 208.87
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 225.66
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "02  MISHR   68    GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 12538.15
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "03  CM 54   GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -15.1
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "05  MISHR 70 GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 48.58
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "06  Panir   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -0.67
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "07  Dahi Glass   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -46.9
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "13  Lassi10",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -43.1
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 1012.54
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -34.9
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "02  MISHR   68    GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 906.29
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "03  CM 54   GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 436.21
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "05  MISHR 70 GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -3.0
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "06  Panir   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -33.2
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "08  Malai  Dahi Trey  Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -52.8
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "09  Sp  Dahi  Mathha  Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -7.2
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "10  Tak  .500    Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -20.4
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "13  Lassi10",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -18.3
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "13 Shrikhand  Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -23.5
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 4712.63
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 55.58
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "02  MISHR   68    GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 68.5
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "03  CM 54   GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 5106.27
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "04 cm 54   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -240.28
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "06  Panir   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -96.39
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "10  Tak  .500    Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -11.7
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "13  Lassi10",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -48.6
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 393.76
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -296.68
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "02  MISHR   68    GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 40.41
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "03  CM 54   GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -88.7
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "04 cm 54   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -801.06
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "05  MISHR 70 GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 1564.58
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "06  Panir   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -171.0
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "07  Dahi Glass   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -11.3
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "09  Sp  Dahi  Mathha  Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -6.8
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "10  Tak  .500    Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -16.0
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "12  Malai Lassi   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -9.1
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "13  Lassi10",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": -29.74
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 65.88
+    },
+    {
+      "stock_item": "20 Kandi  Peda",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 0.25
+    },
+    {
+      "stock_item": "22 Kalakand",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 0.25
+    },
+    {
+      "stock_item": "23  Milk Cake",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 3.45
+    },
+    {
+      "stock_item": "29 Besan Burffi",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 3.0
+    },
+    {
+      "stock_item": "31  Gulab Jamun  Dry",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 4.0
+    },
+    {
+      "stock_item": "42  Khawa",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 2.0
+    },
+    {
+      "stock_item": "43 Loose  Tak",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 50.6
+    },
+    {
+      "stock_item": "43 Loose  Tak",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 4893.67
+    },
+    {
+      "stock_item": "46  Shrikhand  250",
+      "godown": "01  CM  56  GODOWN",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 4.0
+    },
+    {
+      "stock_item": "46  Shrikhand  250",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 265.0
+    },
+    {
+      "stock_item": "46 Motichur  Ladu",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 8.0
+    },
+    {
+      "stock_item": "48 Amrakhand  .250",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 4.0
+    },
+    {
+      "stock_item": "48 Amrakhand Losse",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 30.0
+    },
+    {
+      "stock_item": "49 Amrakhand  .500",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.000 KG",
+      "quantity": 4.0
+    },
+    {
+      "stock_item": "49 Amrakhand  .500",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  4.000 KG",
+      "quantity": 8.0
+    },
+    {
+      "stock_item": "50  D10",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 5274.0
+    },
+    {
+      "stock_item": "50 D10",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 700.0
+    },
+    {
+      "stock_item": "AMUL BUTTER-100",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.07 BX",
+      "quantity": 10.0
+    },
+    {
+      "stock_item": "AMULBUTTER-500",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.03 BX",
+      "quantity": 1.0
+    },
+    {
+      "stock_item": "AMULBUTTER-500",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.08 BX",
+      "quantity": 3.0
+    },
+    {
+      "stock_item": "Amul Fresh Cream 1ltr",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.04 BX",
+      "quantity": 2.0
+    },
+    {
+      "stock_item": "Amul Fresh Cream 1ltr",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.08 BX",
+      "quantity": 1.0
+    },
+    {
+      "stock_item": "BESAN LADOO",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 10.0
+    },
+    {
+      "stock_item": "BM MILK LOOSE",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 978.49
+    },
+    {
+      "stock_item": "Bm Cream   Kacchi",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 1.0
+    },
+    {
+      "stock_item": "CHAT MASALA -500",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": -7.0
+    },
+    {
+      "stock_item": "Cm Ghee-500ml Jar",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 23.0
+    },
+    {
+      "stock_item": "Cm Milk  Loosse",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 3637.16
+    },
+    {
+      "stock_item": "GREENPEAS 5kg",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 5.0
+    },
+    {
+      "stock_item": "GREENPEASE Loose",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 150.2
+    },
+    {
+      "stock_item": "Gool",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 339.0
+    },
+    {
+      "stock_item": "Kaccha Dhud",
+      "godown": "15  Kaccha Dhood   Godown",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 87.68
+    },
+    {
+      "stock_item": "Kaccha Dhud",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "ltr",
+      "quantity": 4.5
+    },
+    {
+      "stock_item": "LSD",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 1254.54
+    },
+    {
+      "stock_item": "Loose Dahi Seprate",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 2253.29
+    },
+    {
+      "stock_item": "PANIR  LOOSE",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 124.51
+    },
+    {
+      "stock_item": "PRABHA DAHI Pouch-150g",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 544.0
+    },
+    {
+      "stock_item": "Poha Chiwada",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 8.0
+    },
+    {
+      "stock_item": "Prabha Dahi Pouch-400g",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 162.0
+    },
+    {
+      "stock_item": "READY MIX - 49",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 372.0
+    },
+    {
+      "stock_item": "Ready Mix-45",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 372.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.63 BX",
+      "quantity": 22.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.66 BX",
+      "quantity": 23.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  0.69 BX",
+      "quantity": 24.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.00 BX",
+      "quantity": 35.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.03 BX",
+      "quantity": 72.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.66 BX",
+      "quantity": 58.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.71 BX",
+      "quantity": 60.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.86 BX",
+      "quantity": 65.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  16.46 BX",
+      "quantity": 576.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.37 BX",
+      "quantity": 83.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.40 BX",
+      "quantity": 84.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  3.06 BX",
+      "quantity": 107.0
+    },
+    {
+      "stock_item": "Soya  Panir",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  1.750 KG",
+      "quantity": 7.0
+    },
+    {
+      "stock_item": "Soya  Panir",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  2.500 KG",
+      "quantity": 10.0
+    },
+    {
+      "stock_item": "Soya  Panir",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  3.000 KG",
+      "quantity": 84.0
+    },
+    {
+      "stock_item": "Soya  Panir",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO. =  5.000 KG",
+      "quantity": 20.0
+    },
+    {
+      "stock_item": "TAK 10",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 144.0
+    },
+    {
+      "stock_item": "Vidyasagar Oil",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "NO.",
+      "quantity": 139.0
+    },
+    {
+      "stock_item": "XX PL",
+      "godown": "Main Store",
+      "batch_name": "Primary Batch",
+      "unit": "KG",
+      "quantity": 6769.18
+    }
+  ],
+  "item_godown_stock": [
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "NO. =  0.71 CRT",
+      "quantity": 20.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "NO. =  2.89 CRT",
+      "quantity": 81.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.04 CRT",
+      "quantity": 5.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.07 CRT",
+      "quantity": 14.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.11 CRT",
+      "quantity": 18.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.14 CRT",
+      "quantity": 16.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.18 CRT",
+      "quantity": 15.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.21 CRT",
+      "quantity": 12.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.25 CRT",
+      "quantity": 14.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.29 CRT",
+      "quantity": 32.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.32 CRT",
+      "quantity": 27.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.36 CRT",
+      "quantity": 220.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.39 CRT",
+      "quantity": 44.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.43 CRT",
+      "quantity": 144.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.50 CRT",
+      "quantity": 14.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.54 CRT",
+      "quantity": 135.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.57 CRT",
+      "quantity": 32.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.61 CRT",
+      "quantity": 17.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.64 CRT",
+      "quantity": 18.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.71 CRT",
+      "quantity": 400.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.75 CRT",
+      "quantity": 63.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.82 CRT",
+      "quantity": 23.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.86 CRT",
+      "quantity": 24.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.89 CRT",
+      "quantity": 50.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.93 CRT",
+      "quantity": 104.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  0.96 CRT",
+      "quantity": 27.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.04 CRT",
+      "quantity": 29.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.07 CRT",
+      "quantity": 300.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.11 CRT",
+      "quantity": 31.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.14 CRT",
+      "quantity": 64.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.18 CRT",
+      "quantity": 99.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.25 CRT",
+      "quantity": 70.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.32 CRT",
+      "quantity": 37.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.39 CRT",
+      "quantity": 39.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.43 CRT",
+      "quantity": 400.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.79 CRT",
+      "quantity": 600.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.93 CRT",
+      "quantity": 108.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  1.96 CRT",
+      "quantity": 385.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  10.00 CRT",
+      "quantity": 280.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  10.11 CRT",
+      "quantity": 283.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  11.57 CRT",
+      "quantity": 7776.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  12.25 CRT",
+      "quantity": 343.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  13.71 CRT",
+      "quantity": 384.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  14.46 CRT",
+      "quantity": 1620.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  17.36 CRT",
+      "quantity": 486.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.04 CRT",
+      "quantity": 57.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.07 CRT",
+      "quantity": 116.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.14 CRT",
+      "quantity": 240.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.21 CRT",
+      "quantity": 62.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.29 CRT",
+      "quantity": 64.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.32 CRT",
+      "quantity": 260.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.36 CRT",
+      "quantity": 132.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.50 CRT",
+      "quantity": 70.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.54 CRT",
+      "quantity": 71.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.71 CRT",
+      "quantity": 76.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.75 CRT",
+      "quantity": 77.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.79 CRT",
+      "quantity": 78.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.86 CRT",
+      "quantity": 240.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  2.89 CRT",
+      "quantity": 11826.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  22.96 CRT",
+      "quantity": 643.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  23.14 CRT",
+      "quantity": 648.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  28.93 CRT",
+      "quantity": 810.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  3.04 CRT",
+      "quantity": 85.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  3.21 CRT",
+      "quantity": 270.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  3.57 CRT",
+      "quantity": 100.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  3.61 CRT",
+      "quantity": 303.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  3.64 CRT",
+      "quantity": 204.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  3.96 CRT",
+      "quantity": 111.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  4.29 CRT",
+      "quantity": 120.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  4.50 CRT",
+      "quantity": 504.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  4.79 CRT",
+      "quantity": 134.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  5.00 CRT",
+      "quantity": 140.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  5.79 CRT",
+      "quantity": 6480.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  5.89 CRT",
+      "quantity": 165.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  6.57 CRT",
+      "quantity": 184.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  7.14 CRT",
+      "quantity": 200.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  7.29 CRT",
+      "quantity": 204.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  7.82 CRT",
+      "quantity": 219.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  8.32 CRT",
+      "quantity": 233.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  8.36 CRT",
+      "quantity": 234.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  8.68 CRT",
+      "quantity": 27459.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  9.07 CRT",
+      "quantity": 254.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  9.86 CRT",
+      "quantity": 276.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.04 CRT",
+      "quantity": -24.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.07 CRT",
+      "quantity": -32.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.11 CRT",
+      "quantity": -63.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.14 CRT",
+      "quantity": -40.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.18 CRT",
+      "quantity": -65.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.21 CRT",
+      "quantity": -60.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.25 CRT",
+      "quantity": -91.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.29 CRT",
+      "quantity": -40.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.32 CRT",
+      "quantity": -45.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.36 CRT",
+      "quantity": -50.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.39 CRT",
+      "quantity": -44.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.43 CRT",
+      "quantity": -36.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.46 CRT",
+      "quantity": -13.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.50 CRT",
+      "quantity": -98.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.54 CRT",
+      "quantity": -105.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.57 CRT",
+      "quantity": -64.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.61 CRT",
+      "quantity": -34.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.64 CRT",
+      "quantity": -144.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.68 CRT",
+      "quantity": -57.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.71 CRT",
+      "quantity": -40.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.75 CRT",
+      "quantity": -21.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.79 CRT",
+      "quantity": -66.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.82 CRT",
+      "quantity": -46.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.86 CRT",
+      "quantity": -96.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -0.96 CRT",
+      "quantity": -108.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.00 CRT",
+      "quantity": -84.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.04 CRT",
+      "quantity": -58.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.07 CRT",
+      "quantity": -180.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.11 CRT",
+      "quantity": -62.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.18 CRT",
+      "quantity": -165.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.21 CRT",
+      "quantity": -68.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.25 CRT",
+      "quantity": -35.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.32 CRT",
+      "quantity": -111.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.39 CRT",
+      "quantity": -39.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.46 CRT",
+      "quantity": -82.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.50 CRT",
+      "quantity": -42.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.54 CRT",
+      "quantity": -86.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.79 CRT",
+      "quantity": -50.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -1.96 CRT",
+      "quantity": -110.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -11.11 CRT",
+      "quantity": -311.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -2.07 CRT",
+      "quantity": -116.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -2.32 CRT",
+      "quantity": -65.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -2.71 CRT",
+      "quantity": -76.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -2.89 CRT",
+      "quantity": -324.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -3.21 CRT",
+      "quantity": -90.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -3.50 CRT",
+      "quantity": -98.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -3.57 CRT",
+      "quantity": -300.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -3.61 CRT",
+      "quantity": -101.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -3.64 CRT",
+      "quantity": -102.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -4.50 CRT",
+      "quantity": -126.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -4.71 CRT",
+      "quantity": -132.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -4.86 CRT",
+      "quantity": -136.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -4.89 CRT",
+      "quantity": -137.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -5.89 CRT",
+      "quantity": -165.0
+    },
+    {
+      "stock_item": "01  DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. = -5.96 CRT",
+      "quantity": -167.0
+    },
+    {
+      "stock_item": "01 DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  38.18 CRT",
+      "quantity": 1069.0
+    },
+    {
+      "stock_item": "01 DAHI CUP 200",
+      "godown": "Main Store",
+      "unit": "NO. =  61.00 CRT",
+      "quantity": 1708.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "KG =  1.21 TRAY",
+      "quantity": 12.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "KG = -0.23 TRAY",
+      "quantity": -2.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.06 TRAY",
+      "quantity": 0.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.07 TRAY",
+      "quantity": 1.95
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.10 TRAY",
+      "quantity": 1.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.20 TRAY",
+      "quantity": 2.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.23 TRAY",
+      "quantity": 13.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.30 TRAY",
+      "quantity": 147.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.38 TRAY",
+      "quantity": 3.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.46 TRAY",
+      "quantity": 4.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.50 TRAY",
+      "quantity": 5.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.69 TRAY",
+      "quantity": 6.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.88 TRAY",
+      "quantity": 8.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.89 TRAY",
+      "quantity": 8.94
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.90 TRAY",
+      "quantity": 8.97
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.92 TRAY",
+      "quantity": 9.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.94 TRAY",
+      "quantity": 9.41
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.96 TRAY",
+      "quantity": 9.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  0.99 TRAY",
+      "quantity": 9.86
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.08 TRAY",
+      "quantity": 10.78
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.10 TRAY",
+      "quantity": 11.04
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.12 TRAY",
+      "quantity": 11.19
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.13 TRAY",
+      "quantity": 11.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.14 TRAY",
+      "quantity": 11.39
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.15 TRAY",
+      "quantity": 34.53
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.16 TRAY",
+      "quantity": 11.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.18 TRAY",
+      "quantity": 23.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.20 TRAY",
+      "quantity": 12.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.22 TRAY",
+      "quantity": 12.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.25 TRAY",
+      "quantity": 12.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.27 TRAY",
+      "quantity": 12.69
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.28 TRAY",
+      "quantity": 38.48
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.29 TRAY",
+      "quantity": 12.86
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.30 TRAY",
+      "quantity": 25.99
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.31 TRAY",
+      "quantity": 26.18
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.32 TRAY",
+      "quantity": 39.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.33 TRAY",
+      "quantity": 79.75
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.34 TRAY",
+      "quantity": 53.59
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.35 TRAY",
+      "quantity": 26.98
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.36 TRAY",
+      "quantity": 13.59
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.38 TRAY",
+      "quantity": 27.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.40 TRAY",
+      "quantity": 28.03
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.43 TRAY",
+      "quantity": 42.82
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.67 TRAY",
+      "quantity": 16.74
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.69 TRAY",
+      "quantity": 16.88
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  1.84 TRAY",
+      "quantity": 18.35
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  10.17 TRAY",
+      "quantity": 101.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  10.22 TRAY",
+      "quantity": 102.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  10.32 TRAY",
+      "quantity": 103.18
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  10.44 TRAY",
+      "quantity": 104.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  10.47 TRAY",
+      "quantity": 104.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  10.50 TRAY",
+      "quantity": 104.98
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  10.54 TRAY",
+      "quantity": 105.42
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  10.57 TRAY",
+      "quantity": 105.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  10.60 TRAY",
+      "quantity": 317.99
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  10.75 TRAY",
+      "quantity": 107.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  10.94 TRAY",
+      "quantity": 109.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  12.22 TRAY",
+      "quantity": 122.17
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.00 TRAY",
+      "quantity": 20.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.01 TRAY",
+      "quantity": 20.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.27 TRAY",
+      "quantity": 22.74
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.29 TRAY",
+      "quantity": 22.88
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.32 TRAY",
+      "quantity": 23.22
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.34 TRAY",
+      "quantity": 46.79
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.36 TRAY",
+      "quantity": 23.56
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.39 TRAY",
+      "quantity": 23.88
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.41 TRAY",
+      "quantity": 48.18
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.43 TRAY",
+      "quantity": 24.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.46 TRAY",
+      "quantity": 24.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.48 TRAY",
+      "quantity": 24.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.51 TRAY",
+      "quantity": 25.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.56 TRAY",
+      "quantity": 51.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.57 TRAY",
+      "quantity": 25.73
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.58 TRAY",
+      "quantity": 25.75
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.59 TRAY",
+      "quantity": 77.66
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.60 TRAY",
+      "quantity": 26.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.61 TRAY",
+      "quantity": 78.33
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.62 TRAY",
+      "quantity": 52.48
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.63 TRAY",
+      "quantity": 52.55
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.64 TRAY",
+      "quantity": 26.35
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.65 TRAY",
+      "quantity": 79.35
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.66 TRAY",
+      "quantity": 53.23
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.67 TRAY",
+      "quantity": 80.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.68 TRAY",
+      "quantity": 53.61
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.70 TRAY",
+      "quantity": 27.04
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.72 TRAY",
+      "quantity": 54.38
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.73 TRAY",
+      "quantity": 54.59
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.74 TRAY",
+      "quantity": 54.75
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  2.76 TRAY",
+      "quantity": 165.63
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.07 TRAY",
+      "quantity": 30.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.35 TRAY",
+      "quantity": 33.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.40 TRAY",
+      "quantity": 33.96
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.64 TRAY",
+      "quantity": 36.35
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.74 TRAY",
+      "quantity": 37.37
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.76 TRAY",
+      "quantity": 37.63
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.83 TRAY",
+      "quantity": 76.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.86 TRAY",
+      "quantity": 77.23
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.90 TRAY",
+      "quantity": 39.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.92 TRAY",
+      "quantity": 117.53
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.93 TRAY",
+      "quantity": 39.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.94 TRAY",
+      "quantity": 39.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  3.97 TRAY",
+      "quantity": 39.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  30.00 TRAY",
+      "quantity": 300.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  4.02 TRAY",
+      "quantity": 40.17
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  4.04 TRAY",
+      "quantity": 80.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  4.05 TRAY",
+      "quantity": 40.52
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  4.07 TRAY",
+      "quantity": 40.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.03 TRAY",
+      "quantity": 50.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.07 TRAY",
+      "quantity": 50.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.09 TRAY",
+      "quantity": 50.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.13 TRAY",
+      "quantity": 51.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.15 TRAY",
+      "quantity": 51.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.20 TRAY",
+      "quantity": 260.06
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.30 TRAY",
+      "quantity": 53.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.31 TRAY",
+      "quantity": 53.07
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.32 TRAY",
+      "quantity": 53.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.33 TRAY",
+      "quantity": 53.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.39 TRAY",
+      "quantity": 107.81
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.51 TRAY",
+      "quantity": 55.13
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.53 TRAY",
+      "quantity": 55.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.75 TRAY",
+      "quantity": 57.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  5.78 TRAY",
+      "quantity": 57.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.08 TRAY",
+      "quantity": 60.84
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.21 TRAY",
+      "quantity": 62.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.37 TRAY",
+      "quantity": 63.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.42 TRAY",
+      "quantity": 128.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.45 TRAY",
+      "quantity": 64.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.50 TRAY",
+      "quantity": 65.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.57 TRAY",
+      "quantity": 65.68
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.59 TRAY",
+      "quantity": 65.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.63 TRAY",
+      "quantity": 198.85
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.69 TRAY",
+      "quantity": 133.83
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.70 TRAY",
+      "quantity": 66.97
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.71 TRAY",
+      "quantity": 67.07
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.72 TRAY",
+      "quantity": 67.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.75 TRAY",
+      "quantity": 135.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.81 TRAY",
+      "quantity": 68.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  6.89 TRAY",
+      "quantity": 68.94
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.12 TRAY",
+      "quantity": 71.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.23 TRAY",
+      "quantity": 72.28
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.24 TRAY",
+      "quantity": 72.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.30 TRAY",
+      "quantity": 73.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.46 TRAY",
+      "quantity": 74.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.51 TRAY",
+      "quantity": 75.07
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.66 TRAY",
+      "quantity": 76.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.67 TRAY",
+      "quantity": 76.69
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.73 TRAY",
+      "quantity": 231.94
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.74 TRAY",
+      "quantity": 77.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.76 TRAY",
+      "quantity": 77.64
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.80 TRAY",
+      "quantity": 78.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.82 TRAY",
+      "quantity": 78.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.86 TRAY",
+      "quantity": 78.57
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.89 TRAY",
+      "quantity": 78.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.90 TRAY",
+      "quantity": 79.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.92 TRAY",
+      "quantity": 79.23
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.93 TRAY",
+      "quantity": 79.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.94 TRAY",
+      "quantity": 79.43
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.97 TRAY",
+      "quantity": 398.37
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  7.98 TRAY",
+      "quantity": 79.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.00 TRAY",
+      "quantity": 240.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.01 TRAY",
+      "quantity": 80.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.02 TRAY",
+      "quantity": 160.39
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.03 TRAY",
+      "quantity": 80.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.04 TRAY",
+      "quantity": 241.27
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.06 TRAY",
+      "quantity": 80.64
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.07 TRAY",
+      "quantity": 80.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.08 TRAY",
+      "quantity": 80.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.09 TRAY",
+      "quantity": 80.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.10 TRAY",
+      "quantity": 80.97
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.11 TRAY",
+      "quantity": 81.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.12 TRAY",
+      "quantity": 162.43
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.18 TRAY",
+      "quantity": 81.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.20 TRAY",
+      "quantity": 82.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.28 TRAY",
+      "quantity": 82.81
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.35 TRAY",
+      "quantity": 83.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.59 TRAY",
+      "quantity": 85.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  8.82 TRAY",
+      "quantity": 264.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.06 TRAY",
+      "quantity": 90.55
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.09 TRAY",
+      "quantity": 90.94
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.14 TRAY",
+      "quantity": 91.39
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.16 TRAY",
+      "quantity": 91.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.21 TRAY",
+      "quantity": 92.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.25 TRAY",
+      "quantity": 92.47
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.26 TRAY",
+      "quantity": 92.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.27 TRAY",
+      "quantity": 92.72
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.28 TRAY",
+      "quantity": 92.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.33 TRAY",
+      "quantity": 93.26
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.36 TRAY",
+      "quantity": 93.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.39 TRAY",
+      "quantity": 93.92
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.40 TRAY",
+      "quantity": 93.95
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.45 TRAY",
+      "quantity": 94.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.54 TRAY",
+      "quantity": 95.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.76 TRAY",
+      "quantity": 97.56
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG =  9.92 TRAY",
+      "quantity": 99.22
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.07 TRAY",
+      "quantity": -2.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.13 TRAY",
+      "quantity": -2.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.16 TRAY",
+      "quantity": -1.601
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.20 TRAY",
+      "quantity": -2.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.23 TRAY",
+      "quantity": -75.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.25 TRAY",
+      "quantity": -2.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.26 TRAY",
+      "quantity": -7.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.30 TRAY",
+      "quantity": -57.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.38 TRAY",
+      "quantity": -3.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.46 TRAY",
+      "quantity": -216.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.53 TRAY",
+      "quantity": -5.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.54 TRAY",
+      "quantity": -5.35
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.64 TRAY",
+      "quantity": -6.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.65 TRAY",
+      "quantity": -6.48
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.66 TRAY",
+      "quantity": -13.22
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.69 TRAY",
+      "quantity": -124.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.70 TRAY",
+      "quantity": -13.93
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.71 TRAY",
+      "quantity": -14.27
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.72 TRAY",
+      "quantity": -7.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.73 TRAY",
+      "quantity": -7.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.74 TRAY",
+      "quantity": -7.44
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.80 TRAY",
+      "quantity": -15.98
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.87 TRAY",
+      "quantity": -8.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.88 TRAY",
+      "quantity": -8.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.89 TRAY",
+      "quantity": -8.86
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.90 TRAY",
+      "quantity": -8.96
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.92 TRAY",
+      "quantity": -138.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.93 TRAY",
+      "quantity": -9.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.94 TRAY",
+      "quantity": -9.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.96 TRAY",
+      "quantity": -9.57
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.97 TRAY",
+      "quantity": -9.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.98 TRAY",
+      "quantity": -9.75
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -0.99 TRAY",
+      "quantity": -29.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.01 TRAY",
+      "quantity": -10.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.02 TRAY",
+      "quantity": -30.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.03 TRAY",
+      "quantity": -10.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.04 TRAY",
+      "quantity": -10.38
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.05 TRAY",
+      "quantity": -20.93
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.07 TRAY",
+      "quantity": -10.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.10 TRAY",
+      "quantity": -21.97
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.11 TRAY",
+      "quantity": -11.1
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.13 TRAY",
+      "quantity": -11.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.15 TRAY",
+      "quantity": -264.52
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.18 TRAY",
+      "quantity": -35.42
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.20 TRAY",
+      "quantity": -12.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.21 TRAY",
+      "quantity": -12.05
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.22 TRAY",
+      "quantity": -24.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.24 TRAY",
+      "quantity": -37.23
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.25 TRAY",
+      "quantity": -12.49
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.27 TRAY",
+      "quantity": -25.38
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.29 TRAY",
+      "quantity": -25.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.30 TRAY",
+      "quantity": -26.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.32 TRAY",
+      "quantity": -13.2
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.33 TRAY",
+      "quantity": -13.32
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.34 TRAY",
+      "quantity": -13.44
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.35 TRAY",
+      "quantity": -13.5
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.36 TRAY",
+      "quantity": -13.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.37 TRAY",
+      "quantity": -13.74
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.38 TRAY",
+      "quantity": -579.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.39 TRAY",
+      "quantity": -27.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.40 TRAY",
+      "quantity": -14.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.42 TRAY",
+      "quantity": -14.22
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.43 TRAY",
+      "quantity": -57.06
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.44 TRAY",
+      "quantity": -28.76
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.48 TRAY",
+      "quantity": -14.77
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.49 TRAY",
+      "quantity": -59.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.50 TRAY",
+      "quantity": -14.99
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.51 TRAY",
+      "quantity": -30.15
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.52 TRAY",
+      "quantity": -15.15
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.53 TRAY",
+      "quantity": -15.3
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.55 TRAY",
+      "quantity": -15.45
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.57 TRAY",
+      "quantity": -15.65
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.58 TRAY",
+      "quantity": -15.78
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.60 TRAY",
+      "quantity": -16.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.61 TRAY",
+      "quantity": -257.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.62 TRAY",
+      "quantity": -32.32
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.63 TRAY",
+      "quantity": -48.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.65 TRAY",
+      "quantity": -16.51
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.66 TRAY",
+      "quantity": -16.55
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.67 TRAY",
+      "quantity": -33.48
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.70 TRAY",
+      "quantity": -33.95
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.74 TRAY",
+      "quantity": -34.81
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.78 TRAY",
+      "quantity": -53.4
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.81 TRAY",
+      "quantity": -36.15
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.84 TRAY",
+      "quantity": -312.81
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.89 TRAY",
+      "quantity": -18.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.95 TRAY",
+      "quantity": -19.54
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1.99 TRAY",
+      "quantity": -19.9
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -1852.00 TRAY",
+      "quantity": -18520.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -2.05 TRAY",
+      "quantity": -20.51
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -2.07 TRAY",
+      "quantity": -20.7
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -2.13 TRAY",
+      "quantity": -21.29
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -2.20 TRAY",
+      "quantity": -22.0
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -2.27 TRAY",
+      "quantity": -45.43
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -2.33 TRAY",
+      "quantity": -23.28
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -2.52 TRAY",
+      "quantity": -25.16
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -3.16 TRAY",
+      "quantity": -31.6
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -5.38 TRAY",
+      "quantity": -53.8
+    },
+    {
+      "stock_item": "02 MAlai Dahi Tray",
+      "godown": "Main Store",
+      "unit": "KG = -915.00 TRAY",
+      "quantity": -9150.0
+    },
+    {
+      "stock_item": "03 Mattha Dahi",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "KG",
+      "quantity": 57.92
+    },
+    {
+      "stock_item": "03 Mattha Dahi",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 7163.296
+    },
+    {
+      "stock_item": "05 TAK 500ml Pouch",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "NO.",
+      "quantity": -4.0
+    },
+    {
+      "stock_item": "05 TAK 500ml Pouch",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 31013.0
+    },
+    {
+      "stock_item": "06 CM GHEE LOOSE",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "KG",
+      "quantity": 34.97
+    },
+    {
+      "stock_item": "06 CM GHEE LOOSE",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 2738.62
+    },
+    {
+      "stock_item": "07 BM GHEE LOOSE",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 1649.75
+    },
+    {
+      "stock_item": "08  CHAKKA",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 171.45
+    },
+    {
+      "stock_item": "10   Lassi  @10",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "NO.",
+      "quantity": 147.0
+    },
+    {
+      "stock_item": "10   Lassi  @10",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 59638.0
+    },
+    {
+      "stock_item": "10 Lassi @10",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 13870.0
+    },
+    {
+      "stock_item": "11  Lassi @20",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 0.0
+    },
+    {
+      "stock_item": "13  Masala Chaach   10",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 487.0
+    },
+    {
+      "stock_item": "13 Masala Chaach 10",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 510.0
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "ltr",
+      "quantity": 5531.4
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "02  MISHR   68    GODOWN",
+      "unit": "ltr",
+      "quantity": -294.09
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "03  CM 54   GODOWN",
+      "unit": "ltr",
+      "quantity": 696.57
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "04 cm 54   Godown",
+      "unit": "ltr",
+      "quantity": 342.34
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "06  Panir   Godown",
+      "unit": "ltr",
+      "quantity": -43.1
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "07  Dahi Glass   Godown",
+      "unit": "ltr",
+      "quantity": -317.2
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "09  Sp  Dahi  Mathha  Godown",
+      "unit": "ltr",
+      "quantity": -103.8
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "13  Lassi10",
+      "unit": "ltr",
+      "quantity": -187.1
+    },
+    {
+      "stock_item": "14  CM 56",
+      "godown": "Main Store",
+      "unit": "ltr",
+      "quantity": 208.87
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "ltr",
+      "quantity": 225.66
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "02  MISHR   68    GODOWN",
+      "unit": "ltr",
+      "quantity": 12538.15
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "03  CM 54   GODOWN",
+      "unit": "ltr",
+      "quantity": -15.1
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "05  MISHR 70 GODOWN",
+      "unit": "ltr",
+      "quantity": 48.58
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "06  Panir   Godown",
+      "unit": "ltr",
+      "quantity": -0.67
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "07  Dahi Glass   Godown",
+      "unit": "ltr",
+      "quantity": -46.9
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "13  Lassi10",
+      "unit": "ltr",
+      "quantity": -43.1
+    },
+    {
+      "stock_item": "15  MISHR    68",
+      "godown": "Main Store",
+      "unit": "ltr",
+      "quantity": 1012.54
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "ltr",
+      "quantity": -34.9
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "02  MISHR   68    GODOWN",
+      "unit": "ltr",
+      "quantity": 906.29
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "03  CM 54   GODOWN",
+      "unit": "ltr",
+      "quantity": 436.21
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "05  MISHR 70 GODOWN",
+      "unit": "ltr",
+      "quantity": -3.0
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "06  Panir   Godown",
+      "unit": "ltr",
+      "quantity": -33.2
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "08  Malai  Dahi Trey  Godown",
+      "unit": "ltr",
+      "quantity": -52.8
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "09  Sp  Dahi  Mathha  Godown",
+      "unit": "ltr",
+      "quantity": -7.2
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "10  Tak  .500    Godown",
+      "unit": "ltr",
+      "quantity": -20.4
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "13  Lassi10",
+      "unit": "ltr",
+      "quantity": -18.3
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "13 Shrikhand  Godown",
+      "unit": "ltr",
+      "quantity": -23.5
+    },
+    {
+      "stock_item": "16  Bm  82",
+      "godown": "Main Store",
+      "unit": "ltr",
+      "quantity": 4712.63
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "ltr",
+      "quantity": 55.58
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "02  MISHR   68    GODOWN",
+      "unit": "ltr",
+      "quantity": 68.5
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "03  CM 54   GODOWN",
+      "unit": "ltr",
+      "quantity": 5106.27
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "04 cm 54   Godown",
+      "unit": "ltr",
+      "quantity": -240.28
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "06  Panir   Godown",
+      "unit": "ltr",
+      "quantity": -96.39
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "10  Tak  .500    Godown",
+      "unit": "ltr",
+      "quantity": -11.7
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "13  Lassi10",
+      "unit": "ltr",
+      "quantity": -48.6
+    },
+    {
+      "stock_item": "17  cm 54",
+      "godown": "Main Store",
+      "unit": "ltr",
+      "quantity": 393.76
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "ltr",
+      "quantity": -296.68
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "02  MISHR   68    GODOWN",
+      "unit": "ltr",
+      "quantity": 40.41
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "03  CM 54   GODOWN",
+      "unit": "ltr",
+      "quantity": -88.7
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "04 cm 54   Godown",
+      "unit": "ltr",
+      "quantity": -801.06
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "05  MISHR 70 GODOWN",
+      "unit": "ltr",
+      "quantity": 1564.58
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "06  Panir   Godown",
+      "unit": "ltr",
+      "quantity": -171.0
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "07  Dahi Glass   Godown",
+      "unit": "ltr",
+      "quantity": -11.3
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "09  Sp  Dahi  Mathha  Godown",
+      "unit": "ltr",
+      "quantity": -6.8
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "10  Tak  .500    Godown",
+      "unit": "ltr",
+      "quantity": -16.0
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "12  Malai Lassi   Godown",
+      "unit": "ltr",
+      "quantity": -9.1
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "13  Lassi10",
+      "unit": "ltr",
+      "quantity": -29.74
+    },
+    {
+      "stock_item": "18  MISHR  70",
+      "godown": "Main Store",
+      "unit": "ltr",
+      "quantity": 65.88
+    },
+    {
+      "stock_item": "20 Kandi  Peda",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 0.25
+    },
+    {
+      "stock_item": "22 Kalakand",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 0.25
+    },
+    {
+      "stock_item": "23  Milk Cake",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 3.45
+    },
+    {
+      "stock_item": "29 Besan Burffi",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 3.0
+    },
+    {
+      "stock_item": "31  Gulab Jamun  Dry",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 4.0
+    },
+    {
+      "stock_item": "42  Khawa",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 2.0
+    },
+    {
+      "stock_item": "43 Loose  Tak",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "KG",
+      "quantity": 50.6
+    },
+    {
+      "stock_item": "43 Loose  Tak",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 4893.67
+    },
+    {
+      "stock_item": "46  Shrikhand  250",
+      "godown": "01  CM  56  GODOWN",
+      "unit": "NO.",
+      "quantity": 4.0
+    },
+    {
+      "stock_item": "46  Shrikhand  250",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 265.0
+    },
+    {
+      "stock_item": "46 Motichur  Ladu",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 8.0
+    },
+    {
+      "stock_item": "48 Amrakhand  .250",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 4.0
+    },
+    {
+      "stock_item": "48 Amrakhand Losse",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 30.0
+    },
+    {
+      "stock_item": "49 Amrakhand  .500",
+      "godown": "Main Store",
+      "unit": "NO. =  2.000 KG",
+      "quantity": 4.0
+    },
+    {
+      "stock_item": "49 Amrakhand  .500",
+      "godown": "Main Store",
+      "unit": "NO. =  4.000 KG",
+      "quantity": 8.0
+    },
+    {
+      "stock_item": "50  D10",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 5274.0
+    },
+    {
+      "stock_item": "50 D10",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 700.0
+    },
+    {
+      "stock_item": "AMUL BUTTER-100",
+      "godown": "Main Store",
+      "unit": "NO. =  0.07 BX",
+      "quantity": 10.0
+    },
+    {
+      "stock_item": "AMULBUTTER-500",
+      "godown": "Main Store",
+      "unit": "NO. =  0.03 BX",
+      "quantity": 1.0
+    },
+    {
+      "stock_item": "AMULBUTTER-500",
+      "godown": "Main Store",
+      "unit": "NO. =  0.08 BX",
+      "quantity": 3.0
+    },
+    {
+      "stock_item": "Amul Fresh Cream 1ltr",
+      "godown": "Main Store",
+      "unit": "NO. =  0.04 BX",
+      "quantity": 2.0
+    },
+    {
+      "stock_item": "Amul Fresh Cream 1ltr",
+      "godown": "Main Store",
+      "unit": "NO. =  0.08 BX",
+      "quantity": 1.0
+    },
+    {
+      "stock_item": "BESAN LADOO",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 10.0
+    },
+    {
+      "stock_item": "BM MILK LOOSE",
+      "godown": "Main Store",
+      "unit": "ltr",
+      "quantity": 978.49
+    },
+    {
+      "stock_item": "Bm Cream   Kacchi",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 1.0
+    },
+    {
+      "stock_item": "CHAT MASALA -500",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": -7.0
+    },
+    {
+      "stock_item": "Cm Ghee-500ml Jar",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 23.0
+    },
+    {
+      "stock_item": "Cm Milk  Loosse",
+      "godown": "Main Store",
+      "unit": "ltr",
+      "quantity": 3637.16
+    },
+    {
+      "stock_item": "GREENPEAS 5kg",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 5.0
+    },
+    {
+      "stock_item": "GREENPEASE Loose",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 150.2
+    },
+    {
+      "stock_item": "Gool",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 339.0
+    },
+    {
+      "stock_item": "Kaccha Dhud",
+      "godown": "15  Kaccha Dhood   Godown",
+      "unit": "ltr",
+      "quantity": 87.68
+    },
+    {
+      "stock_item": "Kaccha Dhud",
+      "godown": "Main Store",
+      "unit": "ltr",
+      "quantity": 4.5
+    },
+    {
+      "stock_item": "LSD",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 1254.54
+    },
+    {
+      "stock_item": "Loose Dahi Seprate",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 2253.29
+    },
+    {
+      "stock_item": "PANIR  LOOSE",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 124.51
+    },
+    {
+      "stock_item": "PRABHA DAHI Pouch-150g",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 544.0
+    },
+    {
+      "stock_item": "Poha Chiwada",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 8.0
+    },
+    {
+      "stock_item": "Prabha Dahi Pouch-400g",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 162.0
+    },
+    {
+      "stock_item": "READY MIX - 49",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 372.0
+    },
+    {
+      "stock_item": "Ready Mix-45",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 372.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  0.63 BX",
+      "quantity": 22.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  0.66 BX",
+      "quantity": 23.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  0.69 BX",
+      "quantity": 24.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  1.00 BX",
+      "quantity": 35.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  1.03 BX",
+      "quantity": 72.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  1.66 BX",
+      "quantity": 58.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  1.71 BX",
+      "quantity": 60.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  1.86 BX",
+      "quantity": 65.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  16.46 BX",
+      "quantity": 576.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  2.37 BX",
+      "quantity": 83.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  2.40 BX",
+      "quantity": 84.0
+    },
+    {
+      "stock_item": "Ready Mix-50",
+      "godown": "Main Store",
+      "unit": "NO. =  3.06 BX",
+      "quantity": 107.0
+    },
+    {
+      "stock_item": "Soya  Panir",
+      "godown": "Main Store",
+      "unit": "NO. =  1.750 KG",
+      "quantity": 7.0
+    },
+    {
+      "stock_item": "Soya  Panir",
+      "godown": "Main Store",
+      "unit": "NO. =  2.500 KG",
+      "quantity": 10.0
+    },
+    {
+      "stock_item": "Soya  Panir",
+      "godown": "Main Store",
+      "unit": "NO. =  3.000 KG",
+      "quantity": 84.0
+    },
+    {
+      "stock_item": "Soya  Panir",
+      "godown": "Main Store",
+      "unit": "NO. =  5.000 KG",
+      "quantity": 20.0
+    },
+    {
+      "stock_item": "TAK 10",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 144.0
+    },
+    {
+      "stock_item": "Vidyasagar Oil",
+      "godown": "Main Store",
+      "unit": "NO.",
+      "quantity": 139.0
+    },
+    {
+      "stock_item": "XX PL",
+      "godown": "Main Store",
+      "unit": "KG",
+      "quantity": 6769.18
+    }
+  ]
+}

@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prabha Dairy — Management System</title>
+<style>
+/* ================= RESET & BASE ================= */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #f4f6f9;
+  --surface:   #ffffff;
+  --primary:   #1a56db;
+  --primary-light: #e8eefb;
+  --accent:    #0e9f6e;
+  --accent-light: #e6f7f0;
+  --warn:      #e3a008;
+  --warn-light: #fdf6e3;
+  --danger:    #dc2626;
+  --text:      #1f2937;
+  --text-light:#6b7280;
+  --border:    #e5e7eb;
+  --radius:    10px;
+  --shadow:    0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+  --shadow-lg: 0 4px 12px rgba(0,0,0,.10);
+  --sidebar-bg: #1e293b;
+  --sidebar-text: #cbd5e1;
+  --sidebar-active: #3b82f6;
+  --sidebar-hover: #334155;
+  --sidebar-w: 260px;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar {
+  width: var(--sidebar-w);
+  min-height: 100vh;
+  background: var(--sidebar-bg);
+  color: var(--sidebar-text);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  z-index: 100;
+  transition: transform .25s;
+}
+
+.sidebar-brand {
+  padding: 24px 20px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+.sidebar-brand .logo {
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.3px;
+}
+.sidebar-brand .sub {
+  font-size: 12px;
+  color: var(--sidebar-text);
+  margin-top: 2px;
+}
+
+.sidebar-nav {
+  flex: 1;
+  padding: 12px 0;
+  overflow-y: auto;
+}
+.sidebar-nav .nav-section {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #64748b;
+  padding: 16px 20px 6px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 11px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--sidebar-text);
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  transition: all .15s;
+}
+.nav-item:hover {
+  background: var(--sidebar-hover);
+  color: #fff;
+}
+.nav-item.active {
+  background: rgba(59,130,246,.12);
+  color: #fff;
+  border-left-color: var(--sidebar-active);
+}
+.nav-item .icon { font-size: 18px; width: 24px; text-align: center; }
+
+.sidebar-footer {
+  padding: 16px 20px;
+  border-top: 1px solid rgba(255,255,255,.08);
+  font-size: 12px;
+  color: #64748b;
+}
+.sidebar-footer .status-dot {
+  display: inline-block;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.sidebar-footer .status-dot.online { background: #22c55e; }
+.sidebar-footer .status-dot.offline { background: #ef4444; }
+
+/* ================= MAIN CONTENT ================= */
+.main-content {
+  margin-left: var(--sidebar-w);
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header {
+  background: linear-gradient(135deg, #1a56db 0%, #1e40af 100%);
+  color: white;
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+.page-header h1 { font-size: 20px; font-weight: 700; }
+.page-header .controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.page-header input[type="date"] {
+  padding: 7px 12px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 6px;
+  background: rgba(255,255,255,.15);
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+.page-header input[type="date"]:focus { border-color: rgba(255,255,255,.6); }
+.page-header input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(1); }
+
+.page-body {
+  flex: 1;
+  padding: 24px 32px;
+  overflow-y: auto;
+}
+
+/* All page sections hidden by default */
+.page-section { display: none; }
+.page-section.active { display: flex; flex-direction: column; flex: 1; }
+
+/* ================= BUTTONS ================= */
+.btn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all .15s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn-primary { background: white; color: var(--primary); }
+.btn-primary:hover { background: #e8eefb; }
+.btn-sm { padding: 6px 12px; font-size: 12px; }
+.btn-quick {
+  padding: 6px 12px; font-size: 12px;
+  background: rgba(255,255,255,.2); color: white;
+  border: 1px solid rgba(255,255,255,.25);
+}
+.btn-quick:hover { background: rgba(255,255,255,.35); }
+.btn-sync {
+  padding: 16px 48px; font-size: 18px; border-radius: 12px;
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  color: white; box-shadow: 0 4px 14px rgba(34,197,94,.35);
+}
+.btn-sync:hover { box-shadow: 0 6px 20px rgba(34,197,94,.45); transform: translateY(-1px); }
+.btn-sync:disabled { opacity: .6; cursor: not-allowed; transform: none; box-shadow: none; }
+.btn-outline {
+  background: transparent; border: 2px solid var(--primary);
+  color: var(--primary);
+}
+.btn-outline:hover { background: var(--primary-light); }
+.btn-download {
+  background: var(--primary); color: white;
+  padding: 12px 28px; font-size: 15px;
+}
+.btn-download:hover { background: #1e40af; }
+
+/* ================= SUMMARY CARDS ================= */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  transition: box-shadow .2s;
+}
+.card:hover { box-shadow: var(--shadow-lg); }
+.card .label {
+  font-size: 12px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.4px; color: var(--text-light); margin-bottom: 6px;
+}
+.card .value {
+  font-size: 28px; font-weight: 700; color: var(--text); line-height: 1.2;
+}
+.card .value.primary { color: var(--primary); }
+.card .value.accent  { color: var(--accent); }
+.card .value.warn    { color: var(--warn); }
+.card .unit { font-size: 14px; font-weight: 400; color: var(--text-light); margin-left: 4px; }
+
+/* ================= TABLES ================= */
+.table-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.table-card .table-header {
+  padding: 16px 20px;
+  font-weight: 700; font-size: 15px;
+  border-bottom: 1px solid var(--border);
+  background: #fafbfc;
+}
+table { width: 100%; border-collapse: collapse; }
+th, td {
+  padding: 10px 20px; text-align: left; font-size: 14px;
+  border-bottom: 1px solid var(--border);
+}
+th {
+  background: #f9fafb; font-weight: 600; color: var(--text-light);
+  font-size: 12px; text-transform: uppercase; letter-spacing: 0.3px;
+}
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: #f9fafb; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+th.num { text-align: right; }
+td.godown-name { font-weight: 600; color: var(--text); }
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.section-title {
+  font-size: 15px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.5px; color: var(--text-light); margin: 28px 0 12px;
+}
+.section-title:first-child { margin-top: 0; }
+
+/* ================= LOADING / ERROR / EMPTY ================= */
+.loading {
+  text-align: center; padding: 40px; color: var(--text-light); font-size: 15px;
+}
+.loading::before {
+  content: ''; display: inline-block; width: 24px; height: 24px;
+  border: 3px solid var(--border); border-top-color: var(--primary);
+  border-radius: 50%; animation: spin .7s linear infinite;
+  vertical-align: middle; margin-right: 10px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.error-msg {
+  background: #fef2f2; border: 1px solid #fecaca; color: #991b1b;
+  padding: 12px 20px; border-radius: 8px; font-size: 14px;
+}
+.empty-msg {
+  text-align: center; padding: 32px; color: var(--text-light); font-size: 14px;
+}
+.success-msg {
+  background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534;
+  padding: 12px 20px; border-radius: 8px; font-size: 14px;
+}
+
+/* ================= SYNC PAGE ================= */
+.sync-hero {
+  text-align: center;
+  padding: 48px 24px;
+}
+.sync-hero .hero-icon { font-size: 64px; margin-bottom: 16px; }
+.sync-hero h2 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+.sync-hero p { color: var(--text-light); font-size: 16px; margin-bottom: 32px; }
+
+.sync-options {
+  max-width: 500px; margin: 0 auto 24px;
+  background: var(--surface); border-radius: var(--radius);
+  padding: 24px; box-shadow: var(--shadow); border: 1px solid var(--border);
+}
+.sync-options label {
+  display: flex; align-items: center; gap: 10px;
+  cursor: pointer; padding: 8px 0; font-size: 14px;
+}
+.sync-options input[type="radio"] { accent-color: var(--primary); }
+.sync-date-inputs {
+  display: flex; gap: 10px; margin-top: 10px; padding-left: 28px;
+}
+.sync-date-inputs input[type="date"] {
+  padding: 8px 12px; border: 1px solid var(--border); border-radius: 6px;
+  font-size: 14px; outline: none;
+}
+.sync-date-inputs input[type="date"]:focus { border-color: var(--primary); }
+
+.sync-status-card {
+  max-width: 500px; margin: 24px auto 0;
+  background: var(--surface); border-radius: var(--radius);
+  padding: 20px 24px; box-shadow: var(--shadow); border: 1px solid var(--border);
+}
+.sync-status-card .status-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 6px 0; font-size: 14px;
+}
+.sync-status-card .status-row .lbl { color: var(--text-light); }
+
+.sync-results {
+  max-width: 600px; margin: 24px auto 0;
+  background: var(--surface); border-radius: var(--radius);
+  padding: 24px; box-shadow: var(--shadow); border: 1px solid var(--border);
+}
+.sync-results h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+.sync-results .result-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px;
+}
+.sync-results .result-item {
+  display: flex; justify-content: space-between; padding: 4px 0; font-size: 14px;
+}
+.sync-results .result-item .rlbl { color: var(--text-light); }
+.sync-results .result-item .rval { font-weight: 600; }
+.sync-results .errors-list {
+  margin-top: 12px; padding: 12px; background: #fef2f2; border-radius: 8px;
+  font-size: 13px; color: #991b1b;
+}
+
+/* ================= STOCK SEARCH ================= */
+.search-card {
+  background: var(--surface); border-radius: var(--radius);
+  padding: 32px; box-shadow: var(--shadow); border: 1px solid var(--border);
+  margin-bottom: 24px;
+}
+.search-title { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+.search-subtitle { font-size: 14px; color: var(--text-light); margin-bottom: 20px; }
+.search-box { position: relative; }
+.search-box input {
+  width: 100%; padding: 14px 48px 14px 16px;
+  border: 2px solid var(--border); border-radius: 8px;
+  font-size: 16px; outline: none; transition: border-color .15s;
+}
+.search-box input:focus { border-color: var(--primary); }
+.search-box .search-icon {
+  position: absolute; right: 16px; top: 50%; transform: translateY(-50%);
+  color: var(--text-light); font-size: 20px;
+}
+.autocomplete-list {
+  position: absolute; top: 100%; left: 0; right: 0;
+  background: var(--surface); border: 1px solid var(--border); border-top: none;
+  border-radius: 0 0 8px 8px; box-shadow: var(--shadow-lg);
+  max-height: 300px; overflow-y: auto; z-index: 100; display: none;
+}
+.autocomplete-list.active { display: block; }
+.autocomplete-item {
+  padding: 12px 16px; cursor: pointer; border-bottom: 1px solid var(--border);
+  font-size: 14px; transition: background .1s;
+}
+.autocomplete-item:last-child { border-bottom: none; }
+.autocomplete-item:hover { background: var(--primary-light); }
+.autocomplete-item.ac-loading,
+.autocomplete-item.no-results {
+  color: var(--text-light); text-align: center; cursor: default;
+}
+.autocomplete-item.ac-loading:hover,
+.autocomplete-item.no-results:hover { background: transparent; }
+
+.results-section {
+  background: var(--surface); border-radius: var(--radius);
+  box-shadow: var(--shadow); border: 1px solid var(--border); overflow: hidden;
+}
+.results-header {
+  padding: 20px 24px;
+  background: linear-gradient(135deg, var(--primary-light) 0%, #f0f4ff 100%);
+  border-bottom: 1px solid var(--border);
+}
+.results-header .item-name { font-size: 20px; font-weight: 700; color: var(--primary); margin-bottom: 4px; }
+.results-header .timestamp { font-size: 12px; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; }
+.summary-bar {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px; padding: 20px 24px; background: #fafbfc; border-bottom: 1px solid var(--border);
+}
+.summary-item { text-align: center; }
+.summary-item .label {
+  font-size: 11px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.5px; color: var(--text-light); margin-bottom: 4px;
+}
+.summary-item .value { font-size: 22px; font-weight: 700; color: var(--text); }
+.summary-item .value.accent { color: var(--accent); }
+.summary-item .value.primary { color: var(--primary); }
+
+/* ================= SYSTEM STATUS ================= */
+.status-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+.status-card {
+  background: var(--surface); border-radius: var(--radius);
+  padding: 20px; box-shadow: var(--shadow); border: 1px solid var(--border);
+}
+.status-card h3 {
+  font-size: 14px; font-weight: 700; text-transform: uppercase;
+  color: var(--text-light); letter-spacing: 0.4px; margin-bottom: 12px;
+}
+.status-card .stat-row {
+  display: flex; justify-content: space-between; padding: 6px 0;
+  font-size: 14px; border-bottom: 1px solid var(--border);
+}
+.status-card .stat-row:last-child { border-bottom: none; }
+.status-card .stat-row .stat-label { color: var(--text-light); }
+.status-card .stat-row .stat-value { font-weight: 600; }
+
+/* ================= PRINT PAGE ================= */
+.print-card {
+  max-width: 600px;
+  background: var(--surface); border-radius: var(--radius);
+  padding: 32px; box-shadow: var(--shadow); border: 1px solid var(--border);
+}
+.print-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 16px; }
+.print-form-group { margin-bottom: 16px; }
+.print-form-group label {
+  display: block; font-size: 13px; font-weight: 600;
+  color: var(--text-light); margin-bottom: 4px;
+}
+.print-form-group input {
+  padding: 10px 14px; border: 1px solid var(--border); border-radius: 6px;
+  font-size: 14px; outline: none; width: 200px;
+}
+.print-form-group input:focus { border-color: var(--primary); }
+
+/* ================= HAMBURGER (mobile) ================= */
+.hamburger {
+  display: none; position: fixed; top: 16px; left: 16px; z-index: 200;
+  background: var(--sidebar-bg); color: white; border: none;
+  width: 40px; height: 40px; border-radius: 8px; font-size: 20px;
+  cursor: pointer; align-items: center; justify-content: center;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  .sidebar { transform: translateX(-100%); }
+  .sidebar.open { transform: translateX(0); }
+  .main-content { margin-left: 0; }
+  .hamburger { display: flex; }
+  .two-col { grid-template-columns: 1fr; }
+  .summary-grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+}
+</style>
+</head>
+<body>
+
+<!-- Hamburger toggle (mobile) -->
+<button class="hamburger" onclick="document.querySelector('.sidebar').classList.toggle('open')">☰</button>
+
+<!-- ================= SIDEBAR ================= -->
+<aside class="sidebar">
+  <div class="sidebar-brand">
+    <div class="logo">🥛 Prabha Dairy</div>
+    <div class="sub">Management System</div>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="nav-section">Main</div>
+    <a class="nav-item active" data-page="sync" onclick="showPage('sync')">
+      <span class="icon">🔄</span> Sync with Tally
+    </a>
+    <a class="nav-item" data-page="dashboard" onclick="showPage('dashboard')">
+      <span class="icon">📊</span> Dashboard
+    </a>
+    <a class="nav-item" data-page="stock" onclick="showPage('stock')">
+      <span class="icon">📦</span> Stock Lookup
+    </a>
+    <div class="nav-section">Tools</div>
+    <a class="nav-item" data-page="print" onclick="showPage('print')">
+      <span class="icon">🖨️</span> Print Vouchers
+    </a>
+    <a class="nav-item" data-page="system" onclick="showPage('system')">
+      <span class="icon">⚙️</span> System Status
+    </a>
+  </nav>
+  <div class="sidebar-footer">
+    <span id="tallyDot" class="status-dot offline"></span>
+    <span id="tallyLabel">Checking Tally...</span>
+    <div style="margin-top:6px;opacity:.7">v1.0.0</div>
+  </div>
+</aside>
+
+<!-- ================= MAIN CONTENT ================= -->
+<div class="main-content">
+
+<!-- ====== SYNC PAGE ====== -->
+<section id="page-sync" class="page-section active">
+  <div class="page-header">
+    <h1>🔄 Sync with Tally ERP</h1>
+  </div>
+  <div class="page-body">
+    <div class="sync-hero">
+      <div class="hero-icon">🔄</div>
+      <h2>Sync Now</h2>
+      <p>Pull latest Purchase Milk, Sales and Stock Journal data from Tally ERP</p>
+
+      <div class="sync-options">
+        <label>
+          <input type="radio" name="syncMode" value="since_last" checked>
+          <span>Since last checkpoint (recommended)</span>
+        </label>
+        <label>
+          <input type="radio" name="syncMode" value="custom">
+          <span>Custom date range</span>
+        </label>
+        <div class="sync-date-inputs" id="syncDateInputs" style="display:none">
+          <input type="date" id="syncFromDate">
+          <span style="color:var(--text-light)">to</span>
+          <input type="date" id="syncToDate">
+        </div>
+      </div>
+
+      <button class="btn btn-sync" id="syncBtn" onclick="triggerSync()">
+        ⚡ Sync Now
+      </button>
+    </div>
+
+    <div class="sync-status-card" id="syncStatusCard">
+      <div class="status-row">
+        <span class="lbl">Last Checkpoint</span>
+        <span id="lastCheckpoint">Loading...</span>
+      </div>
+      <div class="status-row">
+        <span class="lbl">Tally Connection</span>
+        <span id="tallyConnStatus">Checking...</span>
+      </div>
+    </div>
+
+    <div id="syncResultsArea"></div>
+  </div>
+</section>
+
+<!-- ====== DASHBOARD PAGE ====== -->
+<section id="page-dashboard" class="page-section">
+  <div class="page-header">
+    <h1>📊 Purchase Milk Dashboard</h1>
+    <div class="controls">
+      <button class="btn btn-quick" onclick="setToday()">Today</button>
+      <button class="btn btn-quick" onclick="setThisWeek()">This Week</button>
+      <button class="btn btn-quick" onclick="setThisMonth()">This Month</button>
+      <button class="btn btn-quick" onclick="setFullRange()">All Data</button>
+      <input type="date" id="fromDate">
+      <span style="color:rgba(255,255,255,.7)">to</span>
+      <input type="date" id="toDate">
+      <button class="btn btn-primary" onclick="loadDashboard()">Refresh</button>
+    </div>
+  </div>
+  <div class="page-body">
+    <div class="section-title">Period Overview</div>
+    <div id="summaryArea" class="summary-grid"><div class="loading">Loading...</div></div>
+
+    <div class="section-title">Milk Type Breakdown</div>
+    <div id="milkTypeArea"><div class="loading">Loading...</div></div>
+
+    <div class="two-col">
+      <div>
+        <div class="section-title">Godown / Location Breakdown</div>
+        <div id="godownArea"><div class="loading">Loading...</div></div>
+      </div>
+      <div>
+        <div class="section-title">Top Suppliers</div>
+        <div id="supplierArea"><div class="loading">Loading...</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== STOCK LOOKUP PAGE ====== -->
+<section id="page-stock" class="page-section">
+  <div class="page-header">
+    <h1>📦 Live Stock Lookup</h1>
+  </div>
+  <div class="page-body">
+    <div class="search-card">
+      <div class="search-title">Search Stock Items</div>
+      <div class="search-subtitle">Start typing to search. Balance and rate are fetched live from Tally.</div>
+      <div class="search-box">
+        <input type="text" id="stockSearchInput" placeholder="Type item name (e.g., Milk, Ghee, Paneer...)" autocomplete="off">
+        <span class="search-icon">🔍</span>
+        <div id="stockAutocompleteList" class="autocomplete-list"></div>
+      </div>
+    </div>
+    <div id="stockResultsContainer">
+      <div style="text-align:center;padding:64px 24px;color:var(--text-light)">
+        <div style="font-size:48px;margin-bottom:16px;opacity:.5">📦</div>
+        <div style="font-size:16px;margin-bottom:8px">No item selected</div>
+        <div style="font-size:14px">Search for a stock item above to see live godown-wise balances</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== PRINT VOUCHERS PAGE ====== -->
+<section id="page-print" class="page-section">
+  <div class="page-header">
+    <h1>🖨️ Print Vouchers</h1>
+  </div>
+  <div class="page-body">
+    <div class="print-card">
+      <h3>Purchase Milk Vouchers — Date Range</h3>
+      <div class="print-form-group">
+        <label>From Date</label>
+        <input type="date" id="printFromDate">
+      </div>
+      <div class="print-form-group">
+        <label>To Date</label>
+        <input type="date" id="printToDate">
+      </div>
+      <button class="btn btn-download" onclick="downloadDateRangePDF()">📥 Download PDF</button>
+      <div id="printStatus" style="margin-top:16px"></div>
+    </div>
+
+    <div class="print-card" style="margin-top:24px">
+      <h3>Single Voucher by ID</h3>
+      <div class="print-form-group">
+        <label>Voucher ID</label>
+        <input type="number" id="printVoucherId" placeholder="e.g. 42" min="1" style="width:140px">
+      </div>
+      <button class="btn btn-download" onclick="downloadSinglePDF()">📥 Download PDF</button>
+      <div id="printSingleStatus" style="margin-top:16px"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== SYSTEM STATUS PAGE ====== -->
+<section id="page-system" class="page-section">
+  <div class="page-header">
+    <h1>⚙️ System Status</h1>
+    <button class="btn btn-primary" onclick="loadSystemStatus()">Refresh</button>
+  </div>
+  <div class="page-body">
+    <div id="systemStatusArea" class="status-grid">
+      <div class="loading">Loading...</div>
+    </div>
+  </div>
+</section>
+
+</div><!-- /main-content -->
+
+<script>
+const API_BASE = window.location.origin;
+
+/* ================= NAVIGATION ================= */
+function showPage(page) {
+  // Hide all sections
+  document.querySelectorAll('.page-section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+
+  // Show target
+  const section = document.getElementById('page-' + page);
+  if (section) section.classList.add('active');
+  const navItem = document.querySelector(`.nav-item[data-page="${page}"]`);
+  if (navItem) navItem.classList.add('active');
+
+  // Close mobile sidebar
+  document.querySelector('.sidebar').classList.remove('open');
+
+  // Load data for page
+  if (page === 'dashboard') loadDashboard();
+  else if (page === 'sync') loadSyncStatus();
+  else if (page === 'system') loadSystemStatus();
+}
+
+/* ================= NUMBER FORMATTING ================= */
+function n(v, decimals = 2) {
+  if (v == null) return '—';
+  return Number(v).toLocaleString('en-IN', {
+    minimumFractionDigits: decimals, maximumFractionDigits: decimals,
+  });
+}
+function nInt(v) {
+  if (v == null) return '—';
+  return Number(v).toLocaleString('en-IN');
+}
+
+/* ================= FETCH HELPER ================= */
+async function fetchAPI(path, params) {
+  const url = new URL(`${API_BASE}${path}`);
+  if (params) Object.entries(params).forEach(([k, v]) => { if (v != null) url.searchParams.set(k, v); });
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${await resp.text()}`);
+  return resp.json();
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+/* ================================================================
+   SYNC PAGE
+   ================================================================ */
+// Toggle custom date inputs
+document.querySelectorAll('input[name="syncMode"]').forEach(r => {
+  r.addEventListener('change', () => {
+    document.getElementById('syncDateInputs').style.display =
+      document.querySelector('input[name="syncMode"]:checked').value === 'custom' ? 'flex' : 'none';
+  });
+});
+
+async function loadSyncStatus() {
+  try {
+    const data = await fetchAPI('/sync/status');
+    document.getElementById('lastCheckpoint').textContent =
+      data.last_checkpoint || 'No checkpoint yet';
+    document.getElementById('tallyConnStatus').innerHTML =
+      data.tally_reachable
+        ? '<span style="color:#16a34a;font-weight:600">✅ Connected</span>'
+        : '<span style="color:#dc2626;font-weight:600">❌ Not reachable</span>';
+    // Sidebar dot
+    const dot = document.getElementById('tallyDot');
+    const lbl = document.getElementById('tallyLabel');
+    dot.className = 'status-dot ' + (data.tally_reachable ? 'online' : 'offline');
+    lbl.textContent = data.tally_reachable
+      ? `Tally @ ${data.tally_host}:${data.tally_port}`
+      : 'Tally offline';
+  } catch (e) {
+    document.getElementById('tallyConnStatus').textContent = 'Error checking';
+  }
+}
+
+async function triggerSync() {
+  const btn = document.getElementById('syncBtn');
+  btn.disabled = true;
+  btn.textContent = '⏳ Syncing...';
+  document.getElementById('syncResultsArea').innerHTML = '<div class="loading">Syncing with Tally ERP — this may take a moment...</div>';
+
+  const mode = document.querySelector('input[name="syncMode"]:checked').value;
+  const body = { write: true, since_last: mode === 'since_last' };
+
+  if (mode === 'custom') {
+    const f = document.getElementById('syncFromDate').value;
+    const t = document.getElementById('syncToDate').value;
+    if (!f || !t) {
+      document.getElementById('syncResultsArea').innerHTML = '<div class="error-msg">Please select both dates.</div>';
+      btn.disabled = false; btn.textContent = '⚡ Sync Now';
+      return;
+    }
+    body.from_date = f.replace(/-/g, '');
+    body.to_date = t.replace(/-/g, '');
+    body.since_last = false;
+  }
+
+  try {
+    const resp = await fetch(`${API_BASE}/sync/trigger`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    const data = await resp.json();
+
+    if (!resp.ok) {
+      document.getElementById('syncResultsArea').innerHTML =
+        `<div class="error-msg" style="max-width:600px;margin:24px auto">${escapeHtml(data.detail || 'Sync failed')}</div>`;
+    } else {
+      let errorsHtml = '';
+      if (data.errors && data.errors.length) {
+        errorsHtml = `<div class="errors-list"><strong>Errors:</strong><ul>${data.errors.map(e => `<li>${escapeHtml(e)}</li>`).join('')}</ul></div>`;
+      }
+      document.getElementById('syncResultsArea').innerHTML = `
+        <div class="sync-results">
+          <h3>${data.errors && data.errors.length ? '⚠️' : '✅'} Sync Complete</h3>
+          <div class="result-grid">
+            <div class="result-item"><span class="rlbl">Window</span><span class="rval">${data.from_date} → ${data.to_date}</span></div>
+            <div class="result-item"><span class="rlbl">Mode</span><span class="rval">${data.write ? 'WRITE' : 'DRY RUN'}</span></div>
+            <div class="result-item"><span class="rlbl">Discovered</span><span class="rval">${nInt(data.discovered)}</span></div>
+            <div class="result-item"><span class="rlbl">New</span><span class="rval">${nInt(data.new)}</span></div>
+            <div class="result-item"><span class="rlbl">Changed</span><span class="rval">${nInt(data.changed)}</span></div>
+            <div class="result-item"><span class="rlbl">Unchanged</span><span class="rval">${nInt(data.unchanged)}</span></div>
+            <div class="result-item"><span class="rlbl">Unsupported</span><span class="rval">${nInt(data.unsupported)}</span></div>
+            <div class="result-item"><span class="rlbl">Processed</span><span class="rval">${nInt(data.processed)}</span></div>
+          </div>
+          ${errorsHtml}
+        </div>
+      `;
+      // Refresh status
+      loadSyncStatus();
+    }
+  } catch (e) {
+    document.getElementById('syncResultsArea').innerHTML =
+      `<div class="error-msg" style="max-width:600px;margin:24px auto">Sync error: ${escapeHtml(e.message)}</div>`;
+  }
+
+  btn.disabled = false; btn.textContent = '⚡ Sync Now';
+}
+
+/* ================================================================
+   DASHBOARD PAGE
+   ================================================================ */
+function fmtAPI(d) { return d.toISOString().slice(0, 10).replace(/-/g, ''); }
+function fmtInput(d) { return d.toISOString().slice(0, 10); }
+function today() { return new Date(); }
+
+function setToday() {
+  const d = today();
+  document.getElementById('fromDate').value = fmtInput(d);
+  document.getElementById('toDate').value = fmtInput(d);
+  loadDashboard();
+}
+function setThisWeek() {
+  const d = today();
+  const start = new Date(d); start.setDate(d.getDate() - d.getDay());
+  document.getElementById('fromDate').value = fmtInput(start);
+  document.getElementById('toDate').value = fmtInput(d);
+  loadDashboard();
+}
+function setThisMonth() {
+  const d = today();
+  const start = new Date(d.getFullYear(), d.getMonth(), 1);
+  document.getElementById('fromDate').value = fmtInput(start);
+  document.getElementById('toDate').value = fmtInput(d);
+  loadDashboard();
+}
+function setFullRange() {
+  document.getElementById('fromDate').value = '2026-04-01';
+  document.getElementById('toDate').value = fmtInput(today());
+  loadDashboard();
+}
+
+function renderSummary(data) {
+  const el = document.getElementById('summaryArea');
+  if (!data || data.record_count === 0) {
+    el.innerHTML = '<div class="empty-msg">No purchase milk records found for this period.</div>';
+    return;
+  }
+  el.innerHTML = `
+    <div class="card"><div class="label">Total Records</div><div class="value primary">${nInt(data.record_count)}</div></div>
+    <div class="card"><div class="label">Total Litres</div><div class="value">${n(data.total_litres)}<span class="unit">ltr</span></div></div>
+    <div class="card"><div class="label">Total Amount</div><div class="value accent">₹${n(data.total_amount)}</div></div>
+    <div class="card"><div class="label">Avg Degree</div><div class="value">${n(data.weighted_degree, 1)}</div></div>
+    <div class="card"><div class="label">Avg FAT</div><div class="value warn">${n(data.weighted_fat)}</div></div>
+    <div class="card"><div class="label">Avg SNF</div><div class="value">${n(data.weighted_snf)}</div></div>
+  `;
+}
+
+function renderMilkType(data) {
+  const el = document.getElementById('milkTypeArea');
+  if (!data || data.length === 0) { el.innerHTML = '<div class="empty-msg">No milk type data for this period.</div>'; return; }
+  data.sort((a, b) => (b.total_litres || 0) - (a.total_litres || 0));
+  let rows = data.map(r => `<tr>
+    <td>${r.milk_type || '(Unspecified)'}</td><td class="num">${nInt(r.record_count)}</td>
+    <td class="num">${n(r.total_litres)}</td><td class="num">₹${n(r.total_amount)}</td>
+    <td class="num">${n(r.weighted_degree, 1)}</td><td class="num">${n(r.weighted_fat)}</td><td class="num">${n(r.weighted_snf)}</td>
+  </tr>`).join('');
+  el.innerHTML = `<div class="table-card"><table><thead><tr>
+    <th>Milk Type</th><th class="num">Records</th><th class="num">Litres</th><th class="num">Amount</th>
+    <th class="num">Degree</th><th class="num">FAT</th><th class="num">SNF</th>
+  </tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function renderGodown(data) {
+  const el = document.getElementById('godownArea');
+  if (!data || data.length === 0) { el.innerHTML = '<div class="empty-msg">No godown data for this period.</div>'; return; }
+  data.sort((a, b) => (b.total_litres || 0) - (a.total_litres || 0));
+  let rows = data.map(r => `<tr>
+    <td>${r.godown || '(Unspecified)'}</td><td class="num">${n(r.total_litres)}</td>
+    <td class="num">${n(r.weighted_degree, 1)}</td><td class="num">${n(r.weighted_fat)}</td><td class="num">${n(r.weighted_snf)}</td>
+  </tr>`).join('');
+  el.innerHTML = `<div class="table-card"><table><thead><tr>
+    <th>Godown</th><th class="num">Litres</th><th class="num">Degree</th><th class="num">FAT</th><th class="num">SNF</th>
+  </tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function renderSupplier(data) {
+  const el = document.getElementById('supplierArea');
+  if (!data || data.length === 0) { el.innerHTML = '<div class="empty-msg">No supplier data for this period.</div>'; return; }
+  let rows = data.map((r, i) => `<tr>
+    <td>${i + 1}</td><td>${r.party_ledger || '(Unspecified)'}</td>
+    <td class="num">${n(r.total_litres)}</td><td class="num">${n(r.weighted_fat)}</td><td class="num">${n(r.weighted_snf)}</td>
+  </tr>`).join('');
+  el.innerHTML = `<div class="table-card"><table><thead><tr>
+    <th>#</th><th>Supplier</th><th class="num">Litres</th><th class="num">FAT</th><th class="num">SNF</th>
+  </tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function renderError(id, err) {
+  document.getElementById(id).innerHTML = `<div class="error-msg">Failed to load: ${err.message}</div>`;
+}
+
+async function loadDashboard() {
+  const from = document.getElementById('fromDate').value.replace(/-/g, '');
+  const to = document.getElementById('toDate').value.replace(/-/g, '');
+  if (!from || !to) return;
+
+  ['summaryArea', 'milkTypeArea', 'godownArea', 'supplierArea'].forEach(id => {
+    document.getElementById(id).innerHTML = '<div class="loading">Loading...</div>';
+  });
+
+  fetchAPI('/analytics/period-summary', { from_date: from, to_date: to }).then(renderSummary).catch(e => renderError('summaryArea', e));
+  fetchAPI('/analytics/milk-type-breakdown', { from_date: from, to_date: to }).then(renderMilkType).catch(e => renderError('milkTypeArea', e));
+  fetchAPI('/analytics/godown-breakdown', { from_date: from, to_date: to }).then(renderGodown).catch(e => renderError('godownArea', e));
+  fetchAPI('/analytics/supplier-breakdown', { from_date: from, to_date: to, top_n: 15 }).then(renderSupplier).catch(e => renderError('supplierArea', e));
+}
+
+/* ================================================================
+   STOCK LOOKUP PAGE
+   ================================================================ */
+let stockAutocompleteTimer = null;
+const stockSearchInput = document.getElementById('stockSearchInput');
+const stockAutocompleteList = document.getElementById('stockAutocompleteList');
+const stockResultsContainer = document.getElementById('stockResultsContainer');
+
+stockSearchInput.addEventListener('input', (e) => {
+  const query = e.target.value.trim();
+  if (stockAutocompleteTimer) clearTimeout(stockAutocompleteTimer);
+  if (query.length === 0) {
+    stockAutocompleteList.classList.remove('active');
+    stockAutocompleteList.innerHTML = '';
+    return;
+  }
+  stockAutocompleteList.classList.add('active');
+  stockAutocompleteList.innerHTML = '<div class="autocomplete-item ac-loading">Searching...</div>';
+  stockAutocompleteTimer = setTimeout(() => fetchStockAutocomplete(query), 300);
+});
+
+async function fetchStockAutocomplete(query) {
+  try {
+    const url = new URL(`${API_BASE}/stock/search`);
+    url.searchParams.set('q', query);
+    url.searchParams.set('limit', '15');
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+    if (data.results.length === 0) {
+      stockAutocompleteList.innerHTML = '<div class="autocomplete-item no-results">No items found</div>';
+      return;
+    }
+    stockAutocompleteList.innerHTML = data.results.map(item =>
+      `<div class="autocomplete-item" data-item="${escapeHtml(item)}">${escapeHtml(item)}</div>`
+    ).join('');
+    stockAutocompleteList.querySelectorAll('.autocomplete-item[data-item]').forEach(el => {
+      el.addEventListener('click', () => {
+        stockSearchInput.value = el.getAttribute('data-item');
+        stockAutocompleteList.classList.remove('active');
+        fetchLiveStock(el.getAttribute('data-item'));
+      });
+    });
+  } catch (err) {
+    stockAutocompleteList.innerHTML = `<div class="autocomplete-item no-results">Error: ${escapeHtml(err.message)}</div>`;
+  }
+}
+
+async function fetchLiveStock(itemName) {
+  stockResultsContainer.innerHTML = '<div class="loading">Fetching live data from Tally...</div>';
+  try {
+    const url = new URL(`${API_BASE}/stock/live`);
+    url.searchParams.set('item', itemName);
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error(`${resp.status}: ${await resp.text()}`);
+    renderStockResults(await resp.json());
+  } catch (err) {
+    stockResultsContainer.innerHTML = `<div class="error-msg"><strong>Failed to fetch live stock data:</strong><br>${escapeHtml(err.message)}</div>`;
+  }
+}
+
+function renderStockResults(data) {
+  if (!data.godowns || data.godowns.length === 0) {
+    stockResultsContainer.innerHTML = `<div style="text-align:center;padding:64px 24px;color:var(--text-light)">
+      <div style="font-size:48px;margin-bottom:16px;opacity:.5">📭</div>
+      <div style="font-size:16px;margin-bottom:8px">No stock found for "${escapeHtml(data.item)}"</div>
+      <div style="font-size:14px">This item may not have any current balance in Tally</div></div>`;
+    return;
+  }
+  const totalBalance = data.godowns.reduce((s, g) => s + (parseFloat(g.closing_balance) || 0), 0);
+  let weightedRate = null;
+  if (totalBalance > 0) {
+    const sumW = data.godowns.reduce((s, g) => s + (parseFloat(g.closing_balance) || 0) * (parseFloat(g.closing_rate) || 0), 0);
+    weightedRate = sumW / totalBalance;
+  }
+  const now = new Date().toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' });
+  const rows = data.godowns.map(g => `<tr>
+    <td class="godown-name">${escapeHtml(g.godown || '(Unnamed)')}</td>
+    <td class="num">${n(g.closing_balance)}</td><td class="num">₹${n(g.closing_rate)}</td></tr>`).join('');
+  stockResultsContainer.innerHTML = `<div class="results-section">
+    <div class="results-header"><div class="item-name">${escapeHtml(data.item)}</div><div class="timestamp">Live data as of ${now}</div></div>
+    <div class="summary-bar">
+      <div class="summary-item"><div class="label">Godowns</div><div class="value primary">${nInt(data.godowns.length)}</div></div>
+      <div class="summary-item"><div class="label">Total Balance</div><div class="value accent">${n(totalBalance)}</div></div>
+      <div class="summary-item"><div class="label">Avg Rate</div><div class="value">${weightedRate != null ? '₹' + n(weightedRate) : '—'}</div></div>
+    </div>
+    <table><thead><tr><th>Godown / Location</th><th class="num">Closing Balance</th><th class="num">Closing Rate</th></tr></thead>
+    <tbody>${rows}</tbody></table></div>`;
+}
+
+document.addEventListener('click', (e) => {
+  if (!stockSearchInput.contains(e.target) && !stockAutocompleteList.contains(e.target)) {
+    stockAutocompleteList.classList.remove('active');
+  }
+});
+
+/* ================================================================
+   PRINT PAGE
+   ================================================================ */
+function downloadDateRangePDF() {
+  const f = document.getElementById('printFromDate').value;
+  const t = document.getElementById('printToDate').value;
+  if (!f || !t) {
+    document.getElementById('printStatus').innerHTML = '<div class="error-msg">Please select both dates.</div>';
+    return;
+  }
+  const from = f.replace(/-/g, '');
+  const to = t.replace(/-/g, '');
+  document.getElementById('printStatus').innerHTML = '<div class="loading">Generating PDF...</div>';
+  window.open(`${API_BASE}/print/purchase-milk/date-range?from_date=${from}&to_date=${to}&download=true`, '_blank');
+  setTimeout(() => { document.getElementById('printStatus').innerHTML = '<div class="success-msg">PDF download started!</div>'; }, 1500);
+}
+
+function downloadSinglePDF() {
+  const id = document.getElementById('printVoucherId').value;
+  if (!id) {
+    document.getElementById('printSingleStatus').innerHTML = '<div class="error-msg">Please enter a voucher ID.</div>';
+    return;
+  }
+  window.open(`${API_BASE}/print/purchase-milk/${id}?download=true`, '_blank');
+  document.getElementById('printSingleStatus').innerHTML = '<div class="success-msg">PDF download started!</div>';
+}
+
+/* ================================================================
+   SYSTEM STATUS PAGE
+   ================================================================ */
+async function loadSystemStatus() {
+  document.getElementById('systemStatusArea').innerHTML = '<div class="loading">Loading...</div>';
+  try {
+    const [health, status] = await Promise.all([
+      fetchAPI('/health'),
+      fetchAPI('/status'),
+    ]);
+
+    const db = health.database || {};
+    const sys = status;
+
+    document.getElementById('systemStatusArea').innerHTML = `
+      <div class="status-card">
+        <h3>Database</h3>
+        <div class="stat-row"><span class="stat-label">Status</span><span class="stat-value" style="color:${db.status === 'healthy' ? '#16a34a' : '#dc2626'}">${db.status || 'unknown'}</span></div>
+        <div class="stat-row"><span class="stat-label">Pool Size</span><span class="stat-value">${db.pool_size ?? '—'}</span></div>
+        <div class="stat-row"><span class="stat-label">Checked In</span><span class="stat-value">${db.checked_in_connections ?? '—'}</span></div>
+        <div class="stat-row"><span class="stat-label">Checked Out</span><span class="stat-value">${db.checked_out_connections ?? '—'}</span></div>
+        <div class="stat-row"><span class="stat-label">Overflow</span><span class="stat-value">${db.overflow ?? '—'}</span></div>
+      </div>
+      <div class="status-card">
+        <h3>System</h3>
+        <div class="stat-row"><span class="stat-label">CPU Usage</span><span class="stat-value">${sys.system?.cpu_percent ?? '—'}%</span></div>
+        <div class="stat-row"><span class="stat-label">Memory</span><span class="stat-value">${sys.system?.memory_percent ?? '—'}%</span></div>
+        <div class="stat-row"><span class="stat-label">Uptime</span><span class="stat-value">${sys.uptime ?? '—'}</span></div>
+        <div class="stat-row"><span class="stat-label">Environment</span><span class="stat-value">${sys.environment ?? '—'}</span></div>
+      </div>
+      <div class="status-card">
+        <h3>API</h3>
+        <div class="stat-row"><span class="stat-label">Version</span><span class="stat-value">${sys.version ?? '1.0.0'}</span></div>
+        <div class="stat-row"><span class="stat-label">Status</span><span class="stat-value" style="color:#16a34a">${health.status || 'ok'}</span></div>
+        <div class="stat-row"><span class="stat-label">Request Count</span><span class="stat-value">${sys.metrics?.total_requests ?? '—'}</span></div>
+      </div>
+    `;
+  } catch (e) {
+    document.getElementById('systemStatusArea').innerHTML = `<div class="error-msg">Failed to load system status: ${escapeHtml(e.message)}</div>`;
+  }
+}
+
+/* ================================================================
+   INIT
+   ================================================================ */
+// Set default dates for dashboard
+document.getElementById('fromDate').value = fmtInput(today());
+document.getElementById('toDate').value = fmtInput(today());
+
+// Set default dates for print
+document.getElementById('printFromDate').value = fmtInput(today());
+document.getElementById('printToDate').value = fmtInput(today());
+
+// Set default dates for sync custom mode
+document.getElementById('syncFromDate').value = fmtInput(today());
+document.getElementById('syncToDate').value = fmtInput(today());
+
+// Load sync status on startup
+loadSyncStatus();
+</script>
+</body>
+</html>

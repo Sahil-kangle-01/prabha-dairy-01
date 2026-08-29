@@ -1,0 +1,2 @@
+﻿date,voucher_number,voucher_type,party_ledger,guid,master_id,alter_id,stock_item,quantity,unit,rate,amount,source_godown,destination_godown,batch_name,is_deemed_positive,movement_type
+20260401,1,Sales,01 Yash Morning Milk Counter,ccde5e46-22b1-4fd7-8009-ffe387e3e86a-000044a9,17577,30797,16 Bm 82,-5.5,,78.0,-429.0,Main Store,Main Store,Primary Batch,No,OUT
