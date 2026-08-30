@@ -38,10 +38,24 @@ def period_summary(
     db: Session = Depends(get_db),
 ):
     """Requirement #1: overall weighted degree/FAT/SNF for a period,
-    optionally narrowed to one milk_type and/or one godown."""
+    optionally narrowed to one milk_type and/or one godown.
+
+    IMPORTANT: only pass milk_type/godown through when the query param
+    was actually supplied. svc.period_summary() distinguishes "argument
+    omitted" (don't filter) from "argument explicitly None" (filter for
+    IS NULL) via its _UNSET sentinel -- forwarding this route's default
+    of None unconditionally would silently narrow every unfiltered
+    request down to just the tiny "(Unspecified)" group instead of the
+    full period. See the _UNSET docstring in analytics_service.py.
+    """
     fd = _parse_date(from_date, "from_date")
     td = _parse_date(to_date, "to_date")
-    return svc.period_summary(db, fd, td, milk_type=milk_type, godown=godown)
+    kwargs = {}
+    if milk_type is not None:
+        kwargs["milk_type"] = milk_type
+    if godown is not None:
+        kwargs["godown"] = godown
+    return svc.period_summary(db, fd, td, **kwargs)
 
 
 @router.get("/milk-type-breakdown")
