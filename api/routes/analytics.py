@@ -69,6 +69,21 @@ def godown_breakdown(
     return svc.godown_breakdown(db, fd, td, milk_type=milk_type)
 
 
+@router.get("/daily-breakdown")
+def daily_breakdown(
+    from_date: str = Query(..., description="YYYYMMDD"),
+    to_date: str = Query(..., description="YYYYMMDD"),
+    milk_type: str | None = None,
+    godown: str | None = None,
+    db: Session = Depends(get_db),
+):
+    """One row per calendar day in the period, same litres-weighted
+    degree/FAT/SNF as period-summary, for the new Daily Breakdown table."""
+    fd = _parse_date(from_date, "from_date")
+    td = _parse_date(to_date, "to_date")
+    return svc.daily_breakdown(db, fd, td, milk_type=milk_type, godown=godown)
+
+
 @router.get("/supplier-breakdown")
 def supplier_breakdown(
     from_date: str = Query(..., description="YYYYMMDD"),

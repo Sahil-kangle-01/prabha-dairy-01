@@ -233,6 +233,89 @@ def supplier_breakdown(
     return results
 
 
+def _weighted_avg_expr(value_col):
+    """
+    SQL expression: litres-weighted average of value_col, null-safe --
+    excludes rows where value_col or litres is NULL from both the
+    numerator and denominator, rather than treating a missing value as
+    zero (which would silently drag the average down).
+
+    Extracted from the three near-identical expressions in
+    _weighted_fields() so daily_breakdown() below can reuse the exact
+    same semantics without a fourth copy-paste.
+    """
+    return (
+        func.sum(PurchaseMilk.litres * value_col)
+        .filter(value_col.isnot(None), PurchaseMilk.litres.isnot(None))
+        / func.nullif(
+            func.sum(PurchaseMilk.litres)
+            .filter(value_col.isnot(None), PurchaseMilk.litres.isnot(None)),
+            0,
+        )
+    )
+
+
+def daily_breakdown(
+    session: Session,
+    from_date,
+    to_date,
+    milk_type: str | None = None,
+    godown: str | None = None,
+) -> list[dict[str, Any]]:
+    """
+    One row per calendar day within [from_date, to_date], with the same
+    litres-weighted degree/FAT/SNF as period_summary() -- grouped by day
+    instead of by milk_type/godown/party_ledger.
+
+    `milk_type`/`godown` are plain optional narrowing filters (None =
+    don't narrow). Unlike period_summary(), this isn't used to reproduce
+    a specific NULL-group slice on its own, so there's no need for the
+    _UNSET sentinel here -- a caller who wants a NULL-godown day-by-day
+    view can still get it by calling godown_breakdown()'s per-godown
+    results through period_summary() directly.
+
+    Days with zero matching records are simply absent from the result
+    (not returned as a zero-filled row) -- the caller decides how to
+    render gaps in the date range.
+    """
+    query = session.query(PurchaseMilk).filter(
+        PurchaseMilk.date >= from_date,
+        PurchaseMilk.date <= to_date,
+    )
+    if milk_type is not None:
+        query = query.filter(PurchaseMilk.milk_type == milk_type)
+    if godown is not None:
+        query = query.filter(PurchaseMilk.godown == godown)
+
+    rows = (
+        query.with_entities(
+            PurchaseMilk.date.label("day"),
+            func.count(PurchaseMilk.id).label("record_count"),
+            func.coalesce(func.sum(PurchaseMilk.litres), 0).label("total_litres"),
+            func.coalesce(func.sum(PurchaseMilk.actual_amount), 0).label("total_amount"),
+            _weighted_avg_expr(PurchaseMilk.degree).label("weighted_degree"),
+            _weighted_avg_expr(PurchaseMilk.fat).label("weighted_fat"),
+            _weighted_avg_expr(PurchaseMilk.snf).label("weighted_snf"),
+        )
+        .group_by(PurchaseMilk.date)
+        .order_by(PurchaseMilk.date)
+        .all()
+    )
+
+    return [
+        {
+            "date": str(row.day),
+            "record_count": row.record_count,
+            "total_litres": float(row.total_litres or 0),
+            "total_amount": float(row.total_amount or 0),
+            "weighted_degree": float(row.weighted_degree) if row.weighted_degree is not None else None,
+            "weighted_fat": float(row.weighted_fat) if row.weighted_fat is not None else None,
+            "weighted_snf": float(row.weighted_snf) if row.weighted_snf is not None else None,
+        }
+        for row in rows
+    ]
+
+
 def _print_row(label: str, row: dict[str, Any]) -> None:
     degree = f"{row['weighted_degree']:.2f}" if row["weighted_degree"] is not None else "n/a"
     fat = f"{row['weighted_fat']:.2f}" if row["weighted_fat"] is not None else "n/a"

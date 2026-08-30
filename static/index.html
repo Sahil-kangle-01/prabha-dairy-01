@@ -589,6 +589,9 @@ td.godown-name { font-weight: 600; color: var(--text); }
     <div class="section-title">Period Overview</div>
     <div id="summaryArea" class="summary-grid"><div class="loading">Loading...</div></div>
 
+    <div class="section-title">Daily Breakdown</div>
+    <div id="dailyArea"><div class="loading">Loading...</div></div>
+
     <div class="section-title">Milk Type Breakdown</div>
     <div id="milkTypeArea"><div class="loading">Loading...</div></div>
 
@@ -914,6 +917,44 @@ function renderSupplier(data) {
   </tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
+function renderDaily(data, summary) {
+  const el = document.getElementById('dailyArea');
+  if (!data || data.length === 0) { el.innerHTML = '<div class="empty-msg">No daily data for this period.</div>'; return; }
+
+  const rows = data.map(r => `<tr>
+    <td>${r.date}</td><td class="num">${nInt(r.record_count)}</td>
+    <td class="num">${n(r.total_litres)}</td><td class="num">₹${n(r.total_amount)}</td>
+    <td class="num">${n(r.weighted_degree, 1)}</td><td class="num">${n(r.weighted_fat)}</td><td class="num">${n(r.weighted_snf)}</td>
+  </tr>`).join('');
+
+  let avgRow = '';
+  if (summary && summary.record_count > 0) {
+    avgRow = `<tr style="font-weight:600;background:rgba(255,255,255,.06);border-top:2px solid rgba(255,255,255,.15);">
+      <td>Period Average</td><td class="num">${nInt(summary.record_count)}</td>
+      <td class="num">${n(summary.total_litres)}</td><td class="num">₹${n(summary.total_amount)}</td>
+      <td class="num">${n(summary.weighted_degree, 1)}</td><td class="num">${n(summary.weighted_fat)}</td><td class="num">${n(summary.weighted_snf)}</td>
+    </tr>`;
+  }
+
+  const table = `<table><thead><tr>
+    <th>Date</th><th class="num">Records</th><th class="num">Litres</th><th class="num">Amount</th>
+    <th class="num">Degree</th><th class="num">FAT</th><th class="num">SNF</th>
+  </tr></thead><tbody>${rows}${avgRow}</tbody></table>`;
+
+  // Ranges spanning many days would render an unwieldy list by default --
+  // collapse behind a native <details> toggle instead of guessing whether
+  // the user wants a weekly rollup or a full list. Revisit if 60+ day
+  // ranges become the common case rather than the exception.
+  if (data.length > 60) {
+    el.innerHTML = `<div class="table-card">
+      <div class="empty-msg">This range has ${data.length} days with data -- showing a full daily table by default would be hard to scan. Narrow the date range above, or expand below.</div>
+      <details><summary style="cursor:pointer;padding:8px 0;color:rgba(255,255,255,.85);">Show all ${data.length} days</summary>${table}</details>
+    </div>`;
+  } else {
+    el.innerHTML = `<div class="table-card">${table}</div>`;
+  }
+}
+
 function renderError(id, err) {
   document.getElementById(id).innerHTML = `<div class="error-msg">Failed to load: ${err.message}</div>`;
 }
@@ -923,11 +964,15 @@ async function loadDashboard() {
   const to = document.getElementById('toDate').value.replace(/-/g, '');
   if (!from || !to) return;
 
-  ['summaryArea', 'milkTypeArea', 'godownArea', 'supplierArea'].forEach(id => {
+  ['summaryArea', 'dailyArea', 'milkTypeArea', 'godownArea', 'supplierArea'].forEach(id => {
     document.getElementById(id).innerHTML = '<div class="loading">Loading...</div>';
   });
 
   fetchAPI('/analytics/period-summary', { from_date: from, to_date: to }).then(renderSummary).catch(e => renderError('summaryArea', e));
+  Promise.all([
+    fetchAPI('/analytics/daily-breakdown', { from_date: from, to_date: to }),
+    fetchAPI('/analytics/period-summary', { from_date: from, to_date: to }),
+  ]).then(([daily, summary]) => renderDaily(daily, summary)).catch(e => renderError('dailyArea', e));
   fetchAPI('/analytics/milk-type-breakdown', { from_date: from, to_date: to }).then(renderMilkType).catch(e => renderError('milkTypeArea', e));
   fetchAPI('/analytics/godown-breakdown', { from_date: from, to_date: to }).then(renderGodown).catch(e => renderError('godownArea', e));
   fetchAPI('/analytics/supplier-breakdown', { from_date: from, to_date: to, top_n: 15 }).then(renderSupplier).catch(e => renderError('supplierArea', e));
